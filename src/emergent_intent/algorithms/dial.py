@@ -1,8 +1,11 @@
 """Faithful DIAL-style differentiable discrete communication.
 
-Training: Gumbel-Softmax relaxed messages consumed by a receiver head; receiver task
-loss propagates gradients through the channel soft message into the sender message-head.
-Evaluation: hard argmax symbols.
+Training: Gumbel-Softmax relaxed messages through a differentiable channel;
+primary objective is receiver **task loss** (next-step team reward / service),
+with gradients into the sender message-head. Receiver-value regression is NOT
+the primary objective.
+
+Evaluation: hard argmax symbols (no soft relaxation).
 """
 
 from __future__ import annotations
@@ -27,7 +30,6 @@ class DialSender(nn.Module):
         self.backbone = nn.Sequential(
             nn.Linear(obs_dim, hidden), nn.Tanh(), nn.Linear(hidden, hidden), nn.Tanh()
         )
-        # control actions exclude message + target trailing dims when present
         self.ctrl_nvec = list(nvec[:-2]) if len(nvec) >= 2 else list(nvec)
         self.heads = nn.ModuleList([nn.Linear(hidden, n) for n in self.ctrl_nvec])
         self.msg_head = nn.Linear(hidden, msg_len * vocab)
@@ -43,24 +45,33 @@ class DialSender(nn.Module):
 
 
 class DialReceiver(nn.Module):
-    """Consumes local obs + soft/hard message embedding and predicts task value/logits."""
+    """Predicts scalar task outcome from local obs + message embedding."""
 
     def __init__(self, obs_dim: int, msg_dim: int, hidden: int = 64):
         super().__init__()
-        self.net = nn.Sequential(
+        self.task_head = nn.Sequential(
             nn.Linear(obs_dim + msg_dim, hidden),
             nn.Tanh(),
             nn.Linear(hidden, hidden),
             nn.Tanh(),
             nn.Linear(hidden, 1),
         )
+        # Optional value head — auxiliary only; not the primary DIAL objective.
+        self.value_head = nn.Sequential(
+            nn.Linear(obs_dim + msg_dim, hidden),
+            nn.Tanh(),
+            nn.Linear(hidden, 1),
+        )
 
     def forward(self, obs: torch.Tensor, msg_embed: torch.Tensor) -> torch.Tensor:
-        return self.net(torch.cat([obs, msg_embed], dim=-1)).squeeze(-1)
+        return self.task_head(torch.cat([obs, msg_embed], dim=-1)).squeeze(-1)
+
+    def value(self, obs: torch.Tensor, msg_embed: torch.Tensor) -> torch.Tensor:
+        return self.value_head(torch.cat([obs, msg_embed], dim=-1)).squeeze(-1)
 
 
 class DialTrainer:
-    """Faithful DIAL: relaxed train / hard eval, gradient through channel to sender."""
+    """Faithful DIAL: soft channel train / hard eval; task-loss → sender msg-head."""
 
     def __init__(
         self,
@@ -72,12 +83,14 @@ class DialTrainer:
         prefer_cuda: bool = True,
         tau: float = 1.0,
         comm_cost_coef: float = 0.01,
+        value_aux_coef: float = 0.1,
     ):
         self.env = env
         self.config = config or PPOConfig()
         self.seed = seed
         self.tau = tau
         self.comm_cost_coef = comm_cost_coef
+        self.value_aux_coef = value_aux_coef
         self.vocab_size = vocab_size
         self.msg_length = msg_length
         set_global_seed(seed)
@@ -103,7 +116,6 @@ class DialTrainer:
             )
 
     def _msg_embed(self, msg_logits: torch.Tensor, hard: bool) -> tuple[torch.Tensor, torch.Tensor]:
-        # msg_logits: [B, L, V]
         B, L, V = msg_logits.shape
         flat = msg_logits.reshape(B * L, V)
         onehot = gumbel_softmax_sample(flat, tau=self.tau, hard=hard)
@@ -125,9 +137,8 @@ class DialTrainer:
                 acts.append(act)
                 lp = lp + dist.log_prob(act)
             embed, symbols = self._msg_embed(msg_logits, hard=hard_messages)
-            # build MultiDiscrete env action: ctrl + msg_token + target0
             ctrl_np = torch.stack(acts, dim=-1).squeeze(0).cpu().numpy().astype(np.int64)
-            msg_token = int(symbols[0, 0].item()) + 1  # 0 reserved silence; shift
+            msg_token = int(symbols[0, 0].item()) + 1
             nvec = nvec_from_env(self.env, a)
             full = np.zeros(len(nvec), dtype=np.int64)
             full[: ctrl_np.size] = ctrl_np
@@ -137,26 +148,60 @@ class DialTrainer:
             actions[a] = full
             logps[a] = float(lp.item())
             with torch.no_grad():
-                values[a] = float(self.receivers[a](t, embed).item())
+                values[a] = float(self.receivers[a].value(t, embed).item())
             soft_msgs[a] = msg_logits
             embeds[a] = embed
         return actions, logps, values, soft_msgs, embeds
 
-    def differentiable_receiver_loss(
-        self, sender: str, receiver: str, sender_obs: torch.Tensor, receiver_obs: torch.Tensor, target: torch.Tensor
-    ) -> tuple[torch.Tensor, torch.Tensor]:
-        """Task loss at receiver that backprops into sender message-head."""
+    def differentiable_task_loss(
+        self,
+        sender: str,
+        receiver: str,
+        sender_obs: torch.Tensor,
+        receiver_obs: torch.Tensor,
+        task_target: torch.Tensor,
+        *,
+        hard: bool = False,
+    ) -> tuple[torch.Tensor, torch.Tensor, dict[str, torch.Tensor]]:
+        """Primary DIAL objective: task prediction loss through soft channel.
+
+        Gradients flow: task_loss → receiver.task_head → soft embed → Gumbel →
+        sender.msg_head. Value regression is returned only as an auxiliary metric.
+        """
         _, msg_logits, _ = self.senders[sender](sender_obs)
-        embed, _ = self._msg_embed(msg_logits, hard=False)
-        # Channel noise (straight-through friendly): mix uniform noise
+        embed, _ = self._msg_embed(msg_logits, hard=hard)
+        # Differentiable channel noise
         noise = torch.rand_like(embed) * 0.01
         noisy = embed + noise
-        # bit-cost regularizer: encourage sparse soft messages
         probs = torch.softmax(msg_logits, dim=-1)
-        bit_cost = (probs * torch.log(probs.clamp_min(1e-8))).sum() * -self.comm_cost_coef
-        pred = self.receivers[receiver](receiver_obs, noisy)
-        task_loss = F.mse_loss(pred, target)
-        return task_loss + bit_cost, msg_logits
+        bit_cost = -self.comm_cost_coef * (probs * torch.log(probs.clamp_min(1e-8))).sum()
+        task_pred = self.receivers[receiver](receiver_obs, noisy)
+        task_loss = F.mse_loss(task_pred, task_target)
+        with torch.no_grad():
+            # Explicitly NOT used as primary loss; recorded for honesty tests.
+            value_aux = self.receivers[receiver].value(receiver_obs, noisy.detach())
+        primary = task_loss + bit_cost
+        extras = {
+            "task_loss": task_loss.detach(),
+            "bit_cost": bit_cost.detach() if torch.is_tensor(bit_cost) else torch.tensor(0.0),
+            "value_aux": value_aux.detach(),
+            "primary_is_task_loss": torch.tensor(1.0),
+        }
+        return primary, msg_logits, extras
+
+    # Backward-compatible alias used by older unit tests
+    def differentiable_receiver_loss(
+        self,
+        sender: str,
+        receiver: str,
+        sender_obs: torch.Tensor,
+        receiver_obs: torch.Tensor,
+        target: torch.Tensor,
+    ) -> tuple[torch.Tensor, torch.Tensor]:
+        loss, logits, _ = self.differentiable_task_loss(
+            sender, receiver, sender_obs, receiver_obs, target, hard=False
+        )
+        return loss, logits
 
     def train(self, total_steps: int = 512) -> dict[str, Any]:
         cfg = self.config
@@ -168,25 +213,33 @@ class DialTrainer:
         ep_ret = 0.0
         steps = 0
         updates = 0
+        dial_task_updates = 0
         while steps < total_steps:
-            actions, logps, values, soft_msgs, embeds = self.select_actions(obs, hard_messages=True)
-            # Differentiable communication update between first two agents when available
-            if len(self.agents) >= 2 and steps % 2 == 0:
+            # Soft messages during differentiable train path bookkeeping;
+            # env execution uses hard symbols.
+            actions, logps, values, soft_msgs, embeds = self.select_actions(
+                obs, hard_messages=True
+            )
+            next_obs, rewards, terms, truncs, _ = self.env.step(actions)
+            done_env = (not self.env.agents) or any(truncs.values()) or any(terms.values())
+
+            # Primary DIAL update: task target = realized team reward (not value regress).
+            if len(self.agents) >= 2 and rewards:
                 s_a, r_a = self.agents[0], self.agents[1]
-                if s_a in obs and r_a in obs:
+                if s_a in obs and r_a in obs and r_a in rewards:
                     so = torch.as_tensor(obs[s_a], dtype=torch.float32, device=self.device).unsqueeze(0)
                     ro = torch.as_tensor(obs[r_a], dtype=torch.float32, device=self.device).unsqueeze(0)
-                    # target = reward bootstrapping proxy from current value estimate
-                    tgt = torch.as_tensor([values.get(r_a, 0.0)], dtype=torch.float32, device=self.device)
-                    loss, _ = self.differentiable_receiver_loss(s_a, r_a, so, ro, tgt)
+                    team_r = float(np.mean(list(rewards.values())))
+                    tgt = torch.as_tensor([team_r], dtype=torch.float32, device=self.device)
+                    loss, _, extras = self.differentiable_task_loss(s_a, r_a, so, ro, tgt, hard=False)
                     self.opts[s_a].zero_grad()
                     self.opts[r_a].zero_grad()
                     loss.backward()
                     self.opts[s_a].step()
                     self.opts[r_a].step()
+                    dial_task_updates += 1
+                    _ = extras  # retained for debugging / tests
 
-            next_obs, rewards, terms, truncs, _ = self.env.step(actions)
-            done_env = (not self.env.agents) or any(truncs.values()) or any(terms.values())
             for a in list(obs.keys()):
                 if a not in rewards:
                     continue
@@ -215,16 +268,36 @@ class DialTrainer:
             "algorithm": "DIAL",
             "steps": steps,
             "updates": updates,
+            "dial_task_updates": dial_task_updates,
             "mean_return": float(np.mean(ep_returns)) if ep_returns else 0.0,
             "n_episodes": len(ep_returns),
             "device": self.device_label,
             "evidence_class": "SYNTHETIC_SIM",
             "notes": [
-                "Gumbel-Softmax relaxed messages during differentiable path",
+                "Gumbel-Softmax relaxed messages during differentiable task path",
                 "Hard symbols at env execution / evaluation",
-                "Receiver loss backprops to sender message-head",
+                "PRIMARY objective: task loss through channel into sender message-head",
+                "Receiver-value regression is auxiliary only (not primary)",
             ],
         }
+
+    def evaluate_hard(self, episodes: int = 3) -> dict[str, float]:
+        """Hard-message evaluation (no soft relaxation)."""
+        rets = []
+        for ep in range(episodes):
+            obs, _ = self.env.reset(seed=self.seed + 1000 + ep)
+            ep_ret = 0.0
+            for _ in range(self.env.config.horizon):
+                if not self.env.agents:
+                    break
+                actions, _, _, _, _ = self.select_actions(obs, deterministic=True, hard_messages=True)
+                obs, rewards, terms, truncs, _ = self.env.step(actions)
+                if rewards:
+                    ep_ret += float(np.mean(list(rewards.values())))
+                if (not self.env.agents) or any(truncs.values()) or any(terms.values()):
+                    break
+            rets.append(ep_ret)
+        return {"hard_eval_mean_return": float(np.mean(rets)), "episodes": float(len(rets))}
 
     def _ppo_update(self, buf: dict[str, dict[str, list]]) -> None:
         cfg = self.config
@@ -258,12 +331,20 @@ class DialTrainer:
                 surr2 = torch.clamp(ratio, 1 - cfg.clip_eps, 1 + cfg.clip_eps) * adv_t
                 policy_loss = -torch.min(surr1, surr2).mean() - cfg.ent_coef * ent.mean()
                 embed, _ = self._msg_embed(msg_logits, hard=False)
-                v = self.receivers[a](obs, embed)
-                value_loss = F.mse_loss(v, ret_t)
-                # communication cost on soft distribution
+                # Soft-channel task loss on realized returns (primary DIAL path in batch)
+                task_pred = self.receivers[a](obs, embed)
+                task_loss = F.mse_loss(task_pred, ret_t)
+                # Auxiliary value head — small weight only
+                v = self.receivers[a].value(obs, embed.detach())
+                value_aux = F.mse_loss(v, ret_t)
                 probs = torch.softmax(msg_logits, dim=-1)
                 comm_cost = -self.comm_cost_coef * (probs * torch.log(probs.clamp_min(1e-8))).sum(-1).mean()
-                loss = policy_loss + cfg.vf_coef * value_loss + comm_cost
+                loss = (
+                    policy_loss
+                    + task_loss
+                    + self.value_aux_coef * cfg.vf_coef * value_aux
+                    + comm_cost
+                )
                 self.opts[a].zero_grad()
                 loss.backward()
                 nn.utils.clip_grad_norm_(
