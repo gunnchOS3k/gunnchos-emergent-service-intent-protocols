@@ -1,0 +1,19 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "emergent-intent",
+  "description": "Resource-efficient emergent service-intent protocols for distributed AI-RAN agents (GENOME / Oulu research track).",
+  "version": "0.1.0",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "codeRepository": "https://github.com/gunnchos/gunnchos-emergent-service-intent-protocols",
+  "dateCreated": "2026-07-29",
+  "dateModified": "2026-07-29",
+  "programmingLanguage": ["Python"],
+  "author": [
+    {"@type": "Person", "givenName": "Gunnar", "familyName": "Cho"},
+    {"@type": "Person", "givenName": "Edmund", "familyName": "Gunn"}
+  ],
+  "keywords": ["MARL", "AI-RAN", "service-intent", "Doc-POMDP"],
+  "identifier": "DOI_PENDING",
+  "developmentStatus": "active"
+}

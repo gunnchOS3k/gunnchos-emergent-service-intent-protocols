@@ -1,0 +1,13 @@
+{
+  "title": "Resource-Efficient Emergent Service-Intent Protocols for Distributed AI-RAN Agents",
+  "upload_type": "software",
+  "description": "Open research codebase for Doc-POMDP MARL of service-intent protocols in AI-RAN (CPU synthetic evidence).",
+  "creators": [
+    {"name": "Cho, Gunnar"},
+    {"name": "Gunn, Edmund"}
+  ],
+  "keywords": ["MARL", "AI-RAN", "service intent", "emergent communication"],
+  "license": "Apache-2.0",
+  "related_identifiers": [],
+  "notes": "DOI_PENDING — deposit after RELEASE_CANDIDATE_READY CPU gate."
+}

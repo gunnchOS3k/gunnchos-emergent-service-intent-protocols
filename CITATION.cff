@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "Resource-Efficient Emergent Service-Intent Protocols for Distributed AI-RAN Agents"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: Cho
+    given-names: Gunnar
+  - family-names: Gunn
+    given-names: Edmund
+    name-suffix: Jr.
+repository-code: "https://github.com/gunnchos/gunnchos-emergent-service-intent-protocols"
+abstract: >-
+  Open Doc-POMDP MARL codebase for resource-efficient service-intent protocols
+  in terrestrial and TN–NTN AI-RAN scenarios. CPU-reproducible synthetic evidence.
+keywords:
+  - multi-agent reinforcement learning
+  - emergent communication
+  - service intent
+  - AI-RAN
+  - Doc-POMDP
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-07-29"

@@ -1,0 +1,6 @@
+{
+  "evidence_class": "SYNTHETIC_SIM",
+  "gpu_gate": "results/smoke/gate4_gpu_blocked.json (when no CUDA)",
+  "primary_seed_manifests": "results/smoke/smoke_ippo_seed*.json",
+  "smoke_summary_table": "results/smoke/smoke_summary_table.json"
+}

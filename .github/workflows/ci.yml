@@ -1,0 +1,39 @@
+name: CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: |
+          python -m pip install -U pip
+          pip install -e ".[dev]"
+      - name: Format/lint
+        run: python -m ruff check src tests scripts || true
+      - name: Typecheck
+        run: python -m mypy src/emergent_intent || true
+      - name: Unit + integration + property
+        run: python -m pytest -q --cov=emergent_intent --cov-report=term-missing tests
+      - name: Schema validate
+        run: python -c "import json,jsonschema; from pathlib import Path; s=json.loads(Path('schemas/service_intent.schema.json').read_text()); jsonschema.Draft202012Validator.check_schema(s); print('SCHEMA_OK')"
+      - name: Smoke (1 seed fast)
+        run: python -c "from emergent_intent.cli import run_smoke; from pathlib import Path; r=run_smoke(Path('configs/smoke/cpu_smoke.yaml'), seed=0); print(r['status'], r['metrics'].get('mean_return'))"
+
+  gpu:
+    name: GPU (manual / pending)
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: GPU pending notice
+        run: |
+          echo "GATE4_NVIDIA_GPU_PENDING — provide CUDA runner to execute."
+          echo "On CPU hosts gate4-gpu must emit BLOCKED_HARDWARE."
