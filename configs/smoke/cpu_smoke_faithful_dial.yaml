@@ -1,17 +1,15 @@
 evidence_class: SYNTHETIC_SIM
-algorithm: ppo_discrete_message_entropy_baseline
+algorithm: dial
 total_steps: 96
 rollout_steps: 32
 epochs: 2
 hidden: 32
 prefer_cuda: false
 env:
-  scenario: tn_ntn_failover
-  include_ntn: true
+  scenario: hidden_blockage_congestion
   horizon: 12
   channel:
     mode: discrete_learned
     vocab_size: 8
     msg_length: 2
-    targeted: true
 n_ue: 1

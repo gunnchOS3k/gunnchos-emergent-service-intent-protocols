@@ -1,5 +1,6 @@
-algorithm: dial_tarmac
+algorithm: ppo_discrete_message_entropy_baseline
 total_steps: 256
 rollout_steps: 64
 epochs: 2
 hidden: 32
+notes: Former dial_tarmac.yaml — renamed to truthful baseline identity.
