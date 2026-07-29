@@ -103,7 +103,9 @@ class ServiceIntentEnv:
             rng=self.rng,
         )
         self._last_inbox: dict[str, list] = {}
+        # Presence bonuses disabled: messages help only via observations→actions.
         self._coordination_bonus = 0.0
+        self.message_presence_bonus_enabled = False
 
     def _build_agents(self) -> None:
         agents = [f"ue_{i}" for i in range(self.config.n_ue)] + ["bs_0", "edge_0"]
@@ -365,35 +367,9 @@ class ServiceIntentEnv:
         }
 
     def _fixed_protocol_message(self, agent: str) -> np.ndarray:
-        if agent.startswith("ue_"):
-            i = int(agent.split("_")[1])
-            vals = [
-                int(self._state["blockage"][i] > 0.5),
-                int(self._state["queue"][i] > 1.0),
-            ]
-            return np.array(vals[: self.config.msg_len], dtype=np.float32)
-        if agent.startswith("bs_"):
-            return np.array(
-                [int(self._state["congestion"] > 0.5), int(self._state["tn_available"] < 0.5)][
-                    : self.config.msg_len
-                ],
-                dtype=np.float32,
-            )
-        if agent == "edge_0":
-            return np.array(
-                [int(self._state["service_intent"] > 0.5), int(self._state["service_critical"].sum() > 0)][
-                    : self.config.msg_len
-                ],
-                dtype=np.float32,
-            )
-        if agent == "ntn_relay":
-            return np.array(
-                [int(self._state["ntn_available"] > 0.5), int(self._state["ntn_cost"] < 0.5)][
-                    : self.config.msg_len
-                ],
-                dtype=np.float32,
-            )
-        return self.channel.empty_message()
+        from emergent_intent.comm.semantic_protocol import encode_fixed_protocol_message
+
+        return encode_fixed_protocol_message(agent, self._state, msg_len=self.config.msg_len)
 
     def _build_outbound(
         self, decoded: dict[str, dict[str, Any]]
@@ -423,11 +399,17 @@ class ServiceIntentEnv:
         return outbound, targets
 
     def _message_coordination(self, inbox_map: dict[str, list]) -> float:
-        """Bonus when complementary hidden info is shared (scenarios A/B)."""
+        """Legacy presence bonus — DISABLED for publication-grade science.
+
+        Returns 0.0 unless ``message_presence_bonus_enabled`` is explicitly set.
+        Messages must influence outcomes only through observations→actions.
+        """
+        if not getattr(self, "message_presence_bonus_enabled", False):
+            return 0.0
+        # Kept for ablation comparison only (never default-on).
         sc = self.config.scenario
         bonus = 0.0
         if sc == ScenarioFamily.hidden_blockage_congestion:
-            # BS inbox should contain UE blockage signal; edge priority
             bs_slots = inbox_map.get("bs_0", [])
             edge_slots = inbox_map.get("edge_0", [])
             ue_to_bs = any(r.sender_id == 0 and r.valid > 0 for r in bs_slots)
@@ -437,15 +419,9 @@ class ServiceIntentEnv:
             if edge_prio and ue_to_bs:
                 bonus += 0.25
         elif sc in (ScenarioFamily.tn_ntn_continuity, ScenarioFamily.tn_ntn_failover):
-            ntn_slots = inbox_map.get("ntn_relay", [])
-            bs_slots = inbox_map.get("bs_0", [])
-            edge_slots = inbox_map.get("edge_0", [])
-            if any(r.valid > 0 for r in ntn_slots):
-                bonus += 0.2
-            if any(r.valid > 0 for r in bs_slots):
-                bonus += 0.2
-            if any(r.valid > 0 for r in edge_slots):
-                bonus += 0.15
+            for key in ("ntn_relay", "bs_0", "edge_0"):
+                if any(r.valid > 0 for r in inbox_map.get(key, [])):
+                    bonus += 0.15
         return bonus
 
     def _service_probability(
@@ -605,7 +581,9 @@ class ServiceIntentEnv:
             "energy": -energy,
             "message_bits": -bits / max(self.config.message_bit_budget, 1),
             "fairness": float(jain),
-            "spectral_efficiency": float(served_bits.sum() / (energy + 1e-6)),
+            "spectral_efficiency": float(
+                np.clip(served_bits.sum() / (energy + 1e-3), 0.0, 20.0)
+            ),
             "violations": -violations,
         }
         wts = self.config.objectives or {

@@ -164,6 +164,9 @@ def test_action_permutations_change_outcomes() -> None:
 
 
 def test_zeroing_messages_hurts_comm_necessary_scenario() -> None:
+    """Messages help via obs→action protocol — not presence bonuses."""
+    from emergent_intent.comm.semantic_protocol import SemanticProtocolController
+
     env = make_env(
         EnvConfig(
             scenario=ScenarioFamily.hidden_blockage_congestion,
@@ -171,25 +174,22 @@ def test_zeroing_messages_hurts_comm_necessary_scenario() -> None:
             n_ue=1,
             seed=6,
             erasure_p=0.0,
-            channel={"mode": "discrete_learned", "vocab_size": 4, "msg_length": 2},
+            channel={"mode": "fixed_protocol", "vocab_size": 16, "msg_length": 2},
         )
     )
+    assert env.message_presence_bonus_enabled is False
+    controller = SemanticProtocolController()
 
-    def with_msg(e):
-        return _base_actions(
-            e,
-            {A_POWER: 3, A_PRB: 3, A_MCS: 2, A_PRIORITY: 2},
-            per_agent={
-                "ue_0": {A_MSG: 2, A_TARGET: e.possible_agents.index("bs_0")},
-                "edge_0": {A_MSG: 2, A_TARGET: e.possible_agents.index("bs_0")},
-                "bs_0": {A_MSG: 2},
-            },
-        )
+    def with_protocol(e):
+        return controller.actions_from_inbox(e, e._last_inbox)
 
-    def no_msg(e):
-        return _base_actions(e, {A_POWER: 3, A_PRB: 3, A_MCS: 2, A_PRIORITY: 2, A_MSG: 0})
+    def silence(e):
+        acts = controller.actions_from_inbox(e, {})  # empty inbox → weak defaults
+        for a in acts:
+            acts[a][A_MSG] = 0
+        return acts
 
-    assert _mean_served(env, with_msg) > _mean_served(env, no_msg)
+    assert _mean_served(env, with_protocol) > _mean_served(env, silence)
 
 
 def test_oracle_upper_bound() -> None:
