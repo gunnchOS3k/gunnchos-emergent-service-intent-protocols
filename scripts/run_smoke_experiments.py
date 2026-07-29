@@ -17,6 +17,7 @@ SMOKE_CONFIGS = [
     ROOT / "configs/smoke/cpu_smoke_mappo.yaml",
     ROOT / "configs/smoke/cpu_smoke_vdn.yaml",
     ROOT / "configs/smoke/cpu_smoke_dial.yaml",
+    ROOT / "configs/smoke/cpu_smoke_faithful_dial.yaml",
     ROOT / "configs/smoke/medium_cpu.yaml",
 ]
 

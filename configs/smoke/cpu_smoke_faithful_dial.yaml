@@ -1,0 +1,15 @@
+evidence_class: SYNTHETIC_SIM
+algorithm: dial
+total_steps: 96
+rollout_steps: 32
+epochs: 2
+hidden: 32
+prefer_cuda: false
+env:
+  scenario: hidden_blockage_congestion
+  horizon: 12
+  channel:
+    mode: discrete_learned
+    vocab_size: 8
+    msg_length: 2
+n_ue: 1

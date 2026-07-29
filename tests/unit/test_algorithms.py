@@ -7,23 +7,28 @@ from pathlib import Path
 import pytest
 
 from emergent_intent.algorithms import (
-    DialTarmacTrainer,
+    DialTrainer,
     IPPOTrainer,
     MAPPOTrainer,
     PPOConfig,
+    PPODiscreteMessageEntropyBaseline,
     VDNQMIXTrainer,
 )
 from emergent_intent.env import EnvConfig, make_env
 
 
 @pytest.mark.smoke
-@pytest.mark.parametrize("algo", ["ippo", "mappo", "vdn", "dial"])
+@pytest.mark.parametrize("algo", ["ippo", "mappo", "vdn", "dial", "ppo_msg"])
 def test_algorithm_smoke(algo: str, tmp_path: Path) -> None:
     cfg = EnvConfig(
         horizon=8,
         seed=0,
         n_ue=1,
-        channel={"mode": "discrete_learned" if algo == "dial" else "no_comm", "vocab_size": 4, "msg_length": 2},
+        channel={
+            "mode": "discrete_learned" if algo in ("dial", "ppo_msg") else "no_comm",
+            "vocab_size": 4,
+            "msg_length": 2,
+        },
     )
     env = make_env(cfg)
     ppo = PPOConfig(rollout_steps=16, epochs=1, hidden=16)
@@ -33,10 +38,12 @@ def test_algorithm_smoke(algo: str, tmp_path: Path) -> None:
         trainer = MAPPOTrainer(env, config=ppo, seed=0, prefer_cuda=False)
     elif algo == "vdn":
         trainer = VDNQMIXTrainer(env, method="vdn", seed=0, hidden=16, prefer_cuda=False)
-    else:
-        trainer = DialTarmacTrainer(
+    elif algo == "dial":
+        trainer = DialTrainer(
             env, vocab_size=4, msg_length=2, config=ppo, seed=0, prefer_cuda=False
         )
+    else:
+        trainer = PPODiscreteMessageEntropyBaseline(env, config=ppo, seed=0, prefer_cuda=False)
     metrics = trainer.train(total_steps=32)
     assert metrics["steps"] >= 1
     assert metrics["evidence_class"] == "SYNTHETIC_SIM"

@@ -49,7 +49,7 @@ def test_channel_exchange_bits_nonnegative(erasure: float, corr: float, delay: i
     )
     ch = make_channel(cfg, ["a", "b"])
     ch.reset(np.random.default_rng(0))
-    inbox, bits = ch.exchange(
+    inbox, bits, _recs = ch.exchange(
         {"a": np.array([1.0, 2.0]), "b": np.array([0.0, 0.0])},
         np.random.default_rng(1),
     )

@@ -11,6 +11,9 @@ class ScenarioFamily(str, Enum):
     tn_ntn_failover = "tn_ntn_failover"
     critical_service = "critical_service"
     education_fairness = "education_fairness"
+    # Communication-necessary scenarios (§6.3)
+    hidden_blockage_congestion = "hidden_blockage_congestion"
+    tn_ntn_continuity = "tn_ntn_continuity"
 
 
 class CommMode(str, Enum):
@@ -31,6 +34,7 @@ class EnvConfig(BaseModel):
     msg_len: int = 2
     erasure_p: float = 0.0
     bit_error_p: float = 0.0
+    corruption_p: float = 0.0
     delay: int = 0
     observation_noise: float = 0.0
     max_power: float = 1.0
@@ -45,6 +49,10 @@ class EnvConfig(BaseModel):
     energy_budget: float = 1.0
     fairness_weight: float = 0.1
     bit_cost: float = 0.01
+    inbox_capacity: int = 2
+    loopback: bool = False
+    targeted: bool = False
+    stale_threshold: int = 3
     objectives: dict[str, float] = Field(default_factory=dict)
     channel: dict[str, Any] = Field(default_factory=dict)
 
@@ -54,27 +62,33 @@ class EnvConfig(BaseModel):
 
     @model_validator(mode="after")
     def _apply_channel_and_ntn(self) -> "EnvConfig":
-        if self.scenario == ScenarioFamily.tn_ntn_failover:
+        if self.scenario in (
+            ScenarioFamily.tn_ntn_failover,
+            ScenarioFamily.tn_ntn_continuity,
+        ):
             object.__setattr__(self, "include_ntn", True)
         ch = self.channel or {}
-        if "mode" in ch:
-            object.__setattr__(self, "comm_mode", CommMode(ch["mode"]))
-        if "msg_length" in ch:
-            object.__setattr__(self, "msg_len", int(ch["msg_length"]))
-        if "vocab_size" in ch:
-            object.__setattr__(self, "vocab_size", int(ch["vocab_size"]))
-        if "erasure_p" in ch:
-            object.__setattr__(self, "erasure_p", float(ch["erasure_p"]))
-        if "bit_error_p" in ch:
-            object.__setattr__(self, "bit_error_p", float(ch["bit_error_p"]))
-        if "delay" in ch:
-            object.__setattr__(self, "delay", int(ch["delay"]))
-        if "erasure_prob" in ch:
-            object.__setattr__(self, "erasure_p", float(ch["erasure_prob"]))
-        if "corruption_prob" in ch:
-            object.__setattr__(self, "bit_error_p", float(ch["corruption_prob"]))
-        if "delay_steps" in ch:
-            object.__setattr__(self, "delay", int(ch["delay_steps"]))
+        mapping = {
+            "mode": ("comm_mode", lambda v: CommMode(v)),
+            "msg_length": ("msg_len", int),
+            "msg_len": ("msg_len", int),
+            "vocab_size": ("vocab_size", int),
+            "erasure_p": ("erasure_p", float),
+            "erasure_prob": ("erasure_p", float),
+            "bit_error_p": ("bit_error_p", float),
+            "corruption_p": ("corruption_p", float),
+            "corruption_prob": ("corruption_p", float),
+            "delay": ("delay", int),
+            "delay_steps": ("delay", int),
+            "targeted": ("targeted", bool),
+            "inbox_capacity": ("inbox_capacity", int),
+            "loopback": ("loopback", bool),
+            "stale_threshold": ("stale_threshold", int),
+            "bit_cost": ("bit_cost", float),
+        }
+        for src, (dst, cast) in mapping.items():
+            if src in ch:
+                object.__setattr__(self, dst, cast(ch[src]))
         if self.n_ues is not None:
             object.__setattr__(self, "n_ue", int(self.n_ues))
         if self.max_steps is not None:

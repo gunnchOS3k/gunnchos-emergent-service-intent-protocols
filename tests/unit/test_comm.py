@@ -20,7 +20,7 @@ from emergent_intent.comm import (
 def test_no_comm_zero_bits() -> None:
     ch = make_channel(ChannelConfig(mode="no_comm", msg_len=2), ["a", "b"])
     ch.reset(np.random.default_rng(0))
-    inbox, bits = ch.exchange(
+    inbox, bits, _recs = ch.exchange(
         {"a": ch.empty_message(), "b": ch.empty_message()}, np.random.default_rng(0)
     )
     assert bits == 0.0
@@ -35,8 +35,8 @@ def test_discrete_silence_and_bits() -> None:
     ch.reset(np.random.default_rng(0))
     silence = np.array([ch.silence_id(), ch.silence_id()], dtype=np.float32)
     active = np.array([1.0, 2.0], dtype=np.float32)
-    _, bits_s = ch.exchange({"ue_0": silence, "bs_0": silence}, np.random.default_rng(1))
-    _, bits_a = ch.exchange({"ue_0": active, "bs_0": silence}, np.random.default_rng(1))
+    _, bits_s, _ = ch.exchange({"ue_0": silence, "bs_0": silence}, np.random.default_rng(1))
+    _, bits_a, _ = ch.exchange({"ue_0": active, "bs_0": silence}, np.random.default_rng(1))
     assert bits_s == 0.0
     assert bits_a > 0.0
 
@@ -51,11 +51,12 @@ def test_erasure_and_corruption() -> None:
     )
     ch = make_channel(cfg, ["a", "b"])
     ch.reset(np.random.default_rng(0))
-    inbox, _ = ch.exchange(
+    inbox, _, recs = ch.exchange(
         {"a": np.array([1.0, 1.0]), "b": np.array([2.0, 2.0])},
         np.random.default_rng(0),
     )
     assert np.all(inbox["a"] == ch.silence_id())
+    assert all(r.erased == 1.0 or r.valid == 0.0 for r in recs["a"])
 
 
 def test_delay_buffer() -> None:
@@ -65,9 +66,9 @@ def test_delay_buffer() -> None:
     ch = make_channel(cfg, ["a", "b"])
     ch.reset(np.random.default_rng(0))
     msg = np.array([1.0, 2.0])
-    inbox1, _ = ch.exchange({"a": msg, "b": np.zeros(2)}, np.random.default_rng(0))
+    inbox1, _, _ = ch.exchange({"a": msg, "b": np.zeros(2)}, np.random.default_rng(0))
     assert inbox1["b"].shape == (2,)
-    inbox2, _ = ch.exchange({"a": msg, "b": np.zeros(2)}, np.random.default_rng(0))
+    inbox2, _, _ = ch.exchange({"a": msg, "b": np.zeros(2)}, np.random.default_rng(0))
     assert inbox2["b"].shape == (2,)
 
 
@@ -119,6 +120,8 @@ def test_targeted_routing() -> None:
         "edge_0": np.zeros(2),
     }
     targets = {"ue_0": "bs_0", "bs_0": None, "edge_0": None}
-    inbox, bits = ch.exchange(outbound, np.random.default_rng(0), targets=targets)
+    inbox, bits, recs = ch.exchange(outbound, np.random.default_rng(0), targets=targets)
     assert bits >= 0.0
     assert "bs_0" in inbox
+    assert any(r.sender_id == 0 and r.valid > 0 for r in recs["bs_0"])
+    assert not any(r.sender_id == 0 and r.valid > 0 for r in recs["edge_0"])

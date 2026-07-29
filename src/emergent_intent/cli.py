@@ -33,9 +33,19 @@ def run_smoke(config_path: Path | None = None, seed: int = 0, out_dir: Path | No
         hidden=int(cfg.get("hidden", 32)),
     )
     trainer_kwargs: dict = {"seed": seed, "prefer_cuda": bool(cfg.get("prefer_cuda", False))}
-    if algo.lower() in ("ippo", "mappo", "dial", "tarmac", "dial_tarmac"):
+    key = algo.lower().replace("-", "_")
+    if key in (
+        "ippo",
+        "mappo",
+        "dial",
+        "faithful_dial",
+        "tarmac",
+        "dial_tarmac",
+        "ppo_discrete_message_entropy_baseline",
+        "ppo_msg_entropy",
+    ):
         trainer_kwargs["config"] = ppo
-    if algo.lower() in ("dial", "tarmac", "dial_tarmac"):
+    if key in ("dial", "faithful_dial"):
         ch = cfg.get("env", {}).get("channel", {})
         trainer_kwargs["vocab_size"] = int(ch.get("vocab_size", env_cfg.vocab_size))
         trainer_kwargs["msg_length"] = int(ch.get("msg_length", env_cfg.msg_len))

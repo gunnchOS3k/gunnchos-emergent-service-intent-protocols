@@ -20,7 +20,8 @@ def test_partial_observability_not_global():
     obs, _ = env.reset(seed=1)
     assert not np.allclose(obs["ue_0"], obs["bs_0"])
     for a, o in obs.items():
-        assert o.shape == (8,)
+        assert o.shape == env.observation_space(a).shape
+        assert o.shape[0] > 8  # local + inbox features
 
 
 def test_deterministic_seed():

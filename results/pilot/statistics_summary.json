@@ -1,0 +1,115 @@
+{
+  "evidence_class": "SYNTHETIC_SIM",
+  "failed_runs": 0,
+  "methods": {
+    "DIAL": {
+      "boot_high": -1.5831335463831666,
+      "boot_low": -4.0181256364766815,
+      "boot_mean": -2.8121430493384123,
+      "ci95_high": -1.5512875186296342,
+      "ci95_low": -4.127220356706687,
+      "final_comparison_eligible": true,
+      "mean": -2.8392539376681607,
+      "n": 60,
+      "seeds": 60,
+      "std": 5.090073970827159
+    },
+    "IPPO": {
+      "boot_high": -2.389637975654818,
+      "boot_low": -4.671674972985332,
+      "boot_mean": -3.5348226447485223,
+      "ci95_high": -2.381696736219494,
+      "ci95_low": -4.708798284911233,
+      "final_comparison_eligible": true,
+      "mean": -3.5452475105653636,
+      "n": 60,
+      "seeds": 60,
+      "std": 4.5983803790900994
+    },
+    "MAPPO": {
+      "boot_high": 1252.2212421782062,
+      "boot_low": -3.047730392629948,
+      "boot_mean": 493.80230080384484,
+      "ci95_high": 1188.649798720371,
+      "ci95_low": -190.08146518368574,
+      "final_comparison_eligible": true,
+      "mean": 499.28416676834263,
+      "n": 60,
+      "seeds": 60,
+      "std": 2724.389399997916
+    },
+    "QMIX": {
+      "boot_high": -2.2921487151865527,
+      "boot_low": -4.427362993361049,
+      "boot_mean": -3.2914638364464683,
+      "ci95_high": -2.148517435706212,
+      "ci95_low": -4.4633319429522444,
+      "final_comparison_eligible": true,
+      "mean": -3.305924689329228,
+      "n": 60,
+      "seeds": 60,
+      "std": 4.574101038838372
+    },
+    "TARMAC": {
+      "boot_high": -1.8069328678586996,
+      "boot_low": -4.178622238344811,
+      "boot_mean": -2.996635402637421,
+      "ci95_high": -1.827980500813715,
+      "ci95_low": -4.289314653753054,
+      "final_comparison_eligible": true,
+      "mean": -3.0586475772833848,
+      "n": 60,
+      "seeds": 60,
+      "std": 4.863625603972245
+    },
+    "VDN": {
+      "boot_high": -2.183228095185984,
+      "boot_low": -4.625909759641777,
+      "boot_mean": -3.3826619642286677,
+      "ci95_high": -2.089014635858198,
+      "ci95_low": -4.677082609397418,
+      "final_comparison_eligible": true,
+      "mean": -3.383048622627808,
+      "n": 60,
+      "seeds": 60,
+      "std": 5.114053143046011
+    },
+    "centralized_oracle": {
+      "boot_high": 12.468826756937569,
+      "boot_low": 12.468826756937569,
+      "boot_mean": 12.46882675693757,
+      "ci95_high": 12.468826756937569,
+      "ci95_low": 12.468826756937569,
+      "final_comparison_eligible": false,
+      "mean": 12.468826756937569,
+      "n": 1,
+      "seeds": 1,
+      "std": 0.0
+    },
+    "ppo_discrete_message_entropy_baseline": {
+      "boot_high": 1091.0326428978144,
+      "boot_low": -3.8274273123041715,
+      "boot_mean": 421.87330848621104,
+      "ci95_high": 1035.1491857741062,
+      "ci95_low": -166.86833140764298,
+      "final_comparison_eligible": true,
+      "mean": 434.14042718323157,
+      "n": 60,
+      "seeds": 60,
+      "std": 2375.2009315788273
+    },
+    "random": {
+      "boot_high": -3.0650799667573825,
+      "boot_low": -6.214285048781877,
+      "boot_mean": -4.716764419650249,
+      "ci95_high": -3.020251946284363,
+      "ci95_low": -6.413956859296128,
+      "final_comparison_eligible": true,
+      "mean": -4.717104402790246,
+      "n": 30,
+      "seeds": 30,
+      "std": 4.741859016256765
+    }
+  },
+  "note": "Pilot/smoke statistics only; not final scientific evidence unless seeds\u22655 and causal gates pass."
+}

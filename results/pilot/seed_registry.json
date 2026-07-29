@@ -1,0 +1,2708 @@
+[
+  {
+    "algorithm": "random",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "random",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "centralized_oracle",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "terrestrial_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_continuity",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_failover",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "education_fairness",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "tn_ntn_failover",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "education_fairness",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "tn_ntn_continuity",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "terrestrial_congestion",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "critical_service",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "tn_ntn_continuity",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "critical_service",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 0,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "critical_service",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "IPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 2,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "ppo_discrete_message_entropy_baseline",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "QMIX",
+    "scenario": "hidden_blockage_congestion",
+    "seed": 1,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "tn_ntn_failover",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "DIAL",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "TARMAC",
+    "scenario": "terrestrial_congestion",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "MAPPO",
+    "scenario": "critical_service",
+    "seed": 4,
+    "status": "SUCCESS"
+  },
+  {
+    "algorithm": "VDN",
+    "scenario": "education_fairness",
+    "seed": 3,
+    "status": "SUCCESS"
+  }
+]
