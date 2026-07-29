@@ -1,0 +1,10 @@
+{
+  "algorithm": "random",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_return": -1.1712417742687524,
+  "requested_steps": 1024,
+  "scenario": "tn_ntn_continuity",
+  "seed": 1,
+  "status": "SUCCESS"
+}

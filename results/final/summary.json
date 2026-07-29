@@ -1,0 +1,3419 @@
+{
+  "rows": [
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.190095551625525,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.36796615618075,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -25.95605871238049,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -26.957354820654633,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.920536247584444,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 5.211245529930399,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 6.655571319767838,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 2.4338134947977332,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 2.0821750285007226,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 3.948308981248008,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -16.38144537820417,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.88942008812228,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -23.67787052311579,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -22.570524062454894,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 1024,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.9466804757366,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 1,
+          "entropy": 1.3783502578735352,
+          "mean": 0.2499999850988388
+        },
+        "edge_0": {
+          "argmax": 3,
+          "entropy": 1.3852936029434204,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 2,
+          "entropy": 1.3839054107666016,
+          "mean": 0.25
+        },
+        "ue_1": {
+          "argmax": 3,
+          "entropy": 1.3841452598571777,
+          "mean": 0.2499999850988388
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.189095502261107,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.3835580348968506,
+          "mean": 0.25
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.3763055801391602,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 2,
+          "entropy": 1.382859230041504,
+          "mean": 0.2499999850988388
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.361372709274292,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -20.09700141484428,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.2906476259231567,
+          "mean": 0.25
+        },
+        "edge_0": {
+          "argmax": 0,
+          "entropy": 1.3470253944396973,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 2,
+          "entropy": 1.3113073110580444,
+          "mean": 0.2499999850988388
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.3773133754730225,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -20.323246708849037,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.3736567497253418,
+          "mean": 0.25
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.3724318742752075,
+          "mean": 0.2499999701976776
+        },
+        "ue_0": {
+          "argmax": 0,
+          "entropy": 1.3699431419372559,
+          "mean": 0.25
+        },
+        "ue_1": {
+          "argmax": 1,
+          "entropy": 1.3676352500915527,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -19.766725679027104,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.3713738918304443,
+          "mean": 0.2499999701976776
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.3796253204345703,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 1,
+          "entropy": 1.3769201040267944,
+          "mean": 0.25
+        },
+        "ue_1": {
+          "argmax": 1,
+          "entropy": 1.3720864057540894,
+          "mean": 0.2499999850988388
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.111075949974904,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ntn_relay": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 0,
+          "entropy": 1.607663631439209,
+          "mean": 0.20000000298023224
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.5823875665664673,
+          "mean": 0.20000000298023224
+        },
+        "ntn_relay": {
+          "argmax": 2,
+          "entropy": 1.6008871793746948,
+          "mean": 0.20000000298023224
+        },
+        "ue_0": {
+          "argmax": 1,
+          "entropy": 1.5934114456176758,
+          "mean": 0.20000000298023224
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.601825475692749,
+          "mean": 0.20000000298023224
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 3.37547132006329,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ntn_relay": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.5862817764282227,
+          "mean": 0.19999997317790985
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.6020599603652954,
+          "mean": 0.20000000298023224
+        },
+        "ntn_relay": {
+          "argmax": 4,
+          "entropy": 1.5945696830749512,
+          "mean": 0.20000001788139343
+        },
+        "ue_0": {
+          "argmax": 1,
+          "entropy": 1.6076165437698364,
+          "mean": 0.20000000298023224
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.5920333862304688,
+          "mean": 0.20000000298023224
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 9.77062234940216,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ntn_relay": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 1,
+          "entropy": 1.6057300567626953,
+          "mean": 0.20000001788139343
+        },
+        "edge_0": {
+          "argmax": 0,
+          "entropy": 1.6072685718536377,
+          "mean": 0.20000000298023224
+        },
+        "ntn_relay": {
+          "argmax": 3,
+          "entropy": 1.6061371564865112,
+          "mean": 0.20000000298023224
+        },
+        "ue_0": {
+          "argmax": 0,
+          "entropy": 1.604207992553711,
+          "mean": 0.20000001788139343
+        },
+        "ue_1": {
+          "argmax": 0,
+          "entropy": 1.6080586910247803,
+          "mean": 0.20000000298023224
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 5.967936920224158,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ntn_relay": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 0,
+          "entropy": 1.590390682220459,
+          "mean": 0.20000000298023224
+        },
+        "edge_0": {
+          "argmax": 1,
+          "entropy": 1.5843908786773682,
+          "mean": 0.19999998807907104
+        },
+        "ntn_relay": {
+          "argmax": 1,
+          "entropy": 1.6018965244293213,
+          "mean": 0.19999998807907104
+        },
+        "ue_0": {
+          "argmax": 3,
+          "entropy": 1.5961968898773193,
+          "mean": 0.20000000298023224
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.600189447402954,
+          "mean": 0.20000000298023224
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 5.121098534080814,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ntn_relay": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 4,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "ntn_relay",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 0,
+          "entropy": 1.6042938232421875,
+          "mean": 0.19999998807907104
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.5170639753341675,
+          "mean": 0.20000000298023224
+        },
+        "ntn_relay": {
+          "argmax": 0,
+          "entropy": 1.5976413488388062,
+          "mean": 0.19999998807907104
+        },
+        "ue_0": {
+          "argmax": 2,
+          "entropy": 1.6070852279663086,
+          "mean": 0.20000000298023224
+        },
+        "ue_1": {
+          "argmax": 0,
+          "entropy": 1.5974807739257812,
+          "mean": 0.20000000298023224
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 6.174300737161544,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 1,
+          "entropy": 1.3791489601135254,
+          "mean": 0.2499999701976776
+        },
+        "edge_0": {
+          "argmax": 3,
+          "entropy": 1.381301999092102,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 1,
+          "entropy": 1.3828210830688477,
+          "mean": 0.25
+        },
+        "ue_1": {
+          "argmax": 3,
+          "entropy": 1.383878231048584,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -15.730353270808937,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.3823394775390625,
+          "mean": 0.25
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.3758981227874756,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 2,
+          "entropy": 1.378649115562439,
+          "mean": 0.25
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.3568286895751953,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -13.083000475063638,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.336669683456421,
+          "mean": 0.25
+        },
+        "edge_0": {
+          "argmax": 0,
+          "entropy": 1.3182296752929688,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 2,
+          "entropy": 1.3093924522399902,
+          "mean": 0.2499999701976776
+        },
+        "ue_1": {
+          "argmax": 2,
+          "entropy": 1.368849515914917,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -13.719251972623553,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.3793001174926758,
+          "mean": 0.25
+        },
+        "edge_0": {
+          "argmax": 2,
+          "entropy": 1.3730807304382324,
+          "mean": 0.2499999850988388
+        },
+        "ue_0": {
+          "argmax": 0,
+          "entropy": 1.3554984331130981,
+          "mean": 0.2499999850988388
+        },
+        "ue_1": {
+          "argmax": 1,
+          "entropy": 1.3603428602218628,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.040715646046184,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "TARMAC",
+      "attention": {
+        "_peer": {
+          "bs_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "edge_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "ue_1",
+              "bs_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_0": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_1",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          },
+          "ue_1": {
+            "n_real_peers": 3,
+            "peer_names": [
+              "ue_0",
+              "bs_0",
+              "edge_0",
+              "pad:0"
+            ],
+            "used_self_tile": false
+          }
+        },
+        "bs_0": {
+          "argmax": 2,
+          "entropy": 1.361711859703064,
+          "mean": 0.2500000298023224
+        },
+        "edge_0": {
+          "argmax": 0,
+          "entropy": 1.3686625957489014,
+          "mean": 0.25
+        },
+        "ue_0": {
+          "argmax": 1,
+          "entropy": 1.3838369846343994,
+          "mean": 0.25
+        },
+        "ue_1": {
+          "argmax": 1,
+          "entropy": 1.3811867237091064,
+          "mean": 0.25
+        }
+      },
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -22.585297541083488,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "Rollout stores real peer hidden/key/value/query/attention",
+        "Update must NOT tile self as peers",
+        "Joint logp includes control + message + target"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -23.143398635820205,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.019648241051545,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -22.373388379872864,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.40871486285718,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -25.97961096219262,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 2.7395812546571685,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 2.7022839856072975,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 2.6337902819679204,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 0.8991500585260042,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 4.088665930240449,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -20.24057881669445,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.36249204813837,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.82225806896917,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.682418189399808,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "MAPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -23.010296595537326,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 608188349537625.9,
+      "mean_return": -37.58402061186916,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 2270159368084385.5,
+      "mean_return": -39.28064096277802,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 1.2924805400324542e+19,
+      "mean_return": -22.880099411262407,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 1545042802680805.2,
+      "mean_return": -36.07957871363902,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 1.8774849061506652e+16,
+      "mean_return": -33.431459658242616,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 1.0463876578423306e+16,
+      "mean_return": -7.7584178992229935,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 6.251047495754839e+17,
+      "mean_return": -8.017231197290098,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 3984744317254733.0,
+      "mean_return": 5.727541508649489,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 9589945837527980.0,
+      "mean_return": -5.482628973104868,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 1.6805400623229853e+17,
+      "mean_return": -9.335968964741483,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 27337736274454.52,
+      "mean_return": -22.830953397971726,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 691666993443517.2,
+      "mean_return": -40.09192662581724,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 1.8109488001124056e+16,
+      "mean_return": -38.85562411213597,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 5.66414891469217e+16,
+      "mean_return": -12.30162740330507,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "QMIX",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "double_q": true,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_loss": 878256153348293.8,
+      "mean_return": -38.214715424491175,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "replay_size": 1024,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 1009
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -22.216341567412513,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -22.099196819692548,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.7210365705576,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.806765924557787,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -30.214437757166763,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 1.506219815517609,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -1.1712417742687524,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 2.8871735316347116,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -0.48061644342653254,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -1.733283801928026,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -19.738387771530537,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -19.213063549294457,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -11.408070279522136,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -11.646077361718916,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.357548991274346,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -25.702237257642018,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -25.38036917522257,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.268104492103873,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.97269745978628,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -26.76729786984925,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 0.7018588136499685,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -3.20623980505374,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 4.842063219076477,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -1.975365493113158,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -4.075298012452737,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -26.21231810899425,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -25.51499072498022,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.389975343628603,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.29095181772441,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -26.894872789132393,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -16.746429347532818,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.408480909548146,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -14.334083686579596,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -15.724291081087914,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -19.872314455037454,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 18.366310200639482,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 21.820331616596015,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 20.489675174402755,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 19.13309666812964,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 20.87206201921655,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -3.1557574149104477,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.50694884707651,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 8.622927049535221,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -6.31903779886526,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -5.356820112612949,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.754585518928067,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -23.961902124517984,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -24.395613553443788,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.34561554199267,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -23.993603283972618,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 0.3604630466034692,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 4.993352254765315,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 3.632202148804459,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 7.811765114954254,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 4.603869723778642,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.282829175372314,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -19.23994483912977,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -20.935888991591817,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -13.961821855503526,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "IPPO",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -20.651464836266886,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.986593245286592,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -20.49962610554698,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.39866385527924,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -21.851399416514838,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -23.351094344856648,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 6.494642095230134,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 6.32328458642868,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 4.813206608446631,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 7.343655827642479,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": 3.0160135151710907,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "tn_ntn_continuity",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -17.18872664318772,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -15.85225366932594,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -19.002796479639187,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -16.46112128528889,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "FINAL",
+      "mean_return": -18.637760836761803,
+      "n_episodes": 32,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 1024,
+      "scenario": "critical_service",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 1024,
+      "updates": 32
+    }
+  ],
+  "status": {
+    "algorithms": [
+      "dial",
+      "tarmac",
+      "mappo",
+      "qmix",
+      "random",
+      "no_comm",
+      "fixed_protocol",
+      "ippo",
+      "ppo_discrete_message_entropy_baseline"
+    ],
+    "baselines_complete_list": [
+      "random",
+      "no_comm",
+      "fixed_protocol",
+      "centralized_oracle",
+      "ippo",
+      "mappo",
+      "vdn",
+      "qmix",
+      "ppo_discrete_message_entropy_baseline",
+      "dial",
+      "tarmac"
+    ],
+    "block_reason": null,
+    "blocked": false,
+    "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+    "device": {
+      "cuda_available": false,
+      "device": "cpu",
+      "evidence_label": "CPU_ONLY_APPLE_SILICON",
+      "gpu_name": null,
+      "label": "CPU_ONLY_APPLE_SILICON",
+      "platform": "Darwin 25.5.0 arm64",
+      "torch_version": "2.13.0"
+    },
+    "evidence_class": "SYNTHETIC_SIM",
+    "label": "FINAL",
+    "n_rows": 135,
+    "note": "FINAL scientific claim requires \u22655 seeds per compared method and budgets beyond smoke; short runs remain SYNTHETIC_SIM / non-final.",
+    "requested_seeds": 5,
+    "requested_steps": 1024,
+    "scenarios": [
+      "hidden_blockage_congestion",
+      "tn_ntn_continuity",
+      "critical_service"
+    ],
+    "status": "RAN"
+  },
+  "summary": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "failed_runs": 0,
+    "methods": {
+      "DIAL": {
+        "boot_high": -6.044295520035855,
+        "boot_low": -19.133800380191506,
+        "boot_mean": -13.188234680915674,
+        "ci95_high": -6.666407637808365,
+        "ci95_low": -19.937170717100287,
+        "final_comparison_eligible": true,
+        "mean": -13.301789177454326,
+        "n": 15,
+        "seeds": 15,
+        "std": 13.111592958561703
+      },
+      "IPPO": {
+        "boot_high": -6.295178138280951,
+        "boot_low": -18.001463947375914,
+        "boot_mean": -12.184616365787868,
+        "ci95_high": -5.910180405826421,
+        "ci95_low": -18.506035251748685,
+        "final_comparison_eligible": true,
+        "mean": -12.208107828787552,
+        "n": 15,
+        "seeds": 15,
+        "std": 12.44477960446503
+      },
+      "MAPPO": {
+        "boot_high": -7.237885948750118,
+        "boot_low": -18.888567014792475,
+        "boot_mean": -13.37311782293992,
+        "ci95_high": -7.3507432154088495,
+        "ci95_low": -19.446501223195774,
+        "final_comparison_eligible": true,
+        "mean": -13.398622219302313,
+        "n": 15,
+        "seeds": 15,
+        "std": 11.950680949978004
+      },
+      "QMIX": {
+        "boot_high": -15.630185471317677,
+        "boot_low": -30.663891511505955,
+        "boot_mean": -23.137645217367012,
+        "ci95_high": -15.181730185016036,
+        "ci95_low": -31.007250061280274,
+        "final_comparison_eligible": true,
+        "mean": -23.094490123148155,
+        "n": 15,
+        "seeds": 15,
+        "std": 15.635707889246394
+      },
+      "TARMAC": {
+        "boot_high": -4.230198912623133,
+        "boot_low": -16.434009024818337,
+        "boot_mean": -10.436508867291886,
+        "ci95_high": -4.132905864843964,
+        "ci95_low": -16.831938708442742,
+        "final_comparison_eligible": true,
+        "mean": -10.482422286643352,
+        "n": 15,
+        "seeds": 15,
+        "std": 12.546720080663032
+      },
+      "fixed_protocol": {
+        "boot_high": 8.013489908346482,
+        "boot_low": -8.194122099360287,
+        "boot_mean": -0.3310380580348403,
+        "ci95_high": 7.995863832499453,
+        "ci95_low": -8.94516528913031,
+        "final_comparison_eligible": true,
+        "mean": -0.4746507283154288,
+        "n": 15,
+        "seeds": 15,
+        "std": 16.737837667267076
+      },
+      "no_comm": {
+        "boot_high": -10.573897267338877,
+        "boot_low": -22.20742926728613,
+        "boot_mean": -16.972500401167448,
+        "ci95_high": -10.869940257364755,
+        "ci95_low": -23.144299251562856,
+        "final_comparison_eligible": true,
+        "mean": -17.007119754463805,
+        "n": 15,
+        "seeds": 15,
+        "std": 12.127139788239914
+      },
+      "ppo_discrete_message_entropy_baseline": {
+        "boot_high": -4.780970824983118,
+        "boot_low": -16.967001771462044,
+        "boot_mean": -11.1431013059674,
+        "ci95_high": -4.883736820254711,
+        "ci95_low": -17.548160946247798,
+        "final_comparison_eligible": true,
+        "mean": -11.215948883251254,
+        "n": 15,
+        "seeds": 15,
+        "std": 12.512526461550676
+      },
+      "random": {
+        "boot_high": -7.624698339450041,
+        "boot_low": -18.031792833613398,
+        "boot_mean": -12.916456617055447,
+        "ci95_high": -7.58831925573877,
+        "ci95_low": -18.33337077962104,
+        "final_comparison_eligible": true,
+        "mean": -12.960845017679905,
+        "n": 15,
+        "seeds": 15,
+        "std": 10.616174899524658
+      }
+    },
+    "note": "Pilot/smoke statistics only; not final scientific evidence unless seeds\u22655 and causal gates pass."
+  }
+}

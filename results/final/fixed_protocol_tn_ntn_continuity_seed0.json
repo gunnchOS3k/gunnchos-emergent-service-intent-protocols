@@ -1,0 +1,10 @@
+{
+  "algorithm": "fixed_protocol",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_return": 18.366310200639482,
+  "requested_steps": 1024,
+  "scenario": "tn_ntn_continuity",
+  "seed": 0,
+  "status": "SUCCESS"
+}

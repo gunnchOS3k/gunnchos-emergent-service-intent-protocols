@@ -27,17 +27,30 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def collect_rows(pilot_dir: Path) -> list[dict]:
     rows: list[dict] = []
-    summary = pilot_dir / "pilot_summary.json"
-    if summary.exists():
-        payload = json.loads(summary.read_text())
-        for item in payload.get("rows", []):
-            if isinstance(item, dict):
-                rows.append(item)
+    # Prefer aggregating final + pilot + interventions when present
+    candidates = [
+        pilot_dir / "pilot_summary.json",
+        ROOT / "results" / "final" / "summary.json",
+        ROOT / "results" / "interventions" / "summary.json",
+        ROOT / "results" / "ablations" / "summary.json",
+    ]
     skip = {
         "pilot_summary.json",
         "statistics_summary.json",
         "seed_registry.json",
+        "STATUS.json",
+        "summary.json",
     }
+    for summary in candidates:
+        if not summary.exists():
+            continue
+        try:
+            payload = json.loads(summary.read_text())
+        except Exception:
+            continue
+        for item in payload.get("rows", []):
+            if isinstance(item, dict):
+                rows.append(item)
     for path in pilot_dir.glob("*.json"):
         if path.name in skip:
             continue

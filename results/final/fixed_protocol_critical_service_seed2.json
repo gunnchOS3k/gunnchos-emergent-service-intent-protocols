@@ -1,0 +1,10 @@
+{
+  "algorithm": "fixed_protocol",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_return": 8.622927049535221,
+  "requested_steps": 1024,
+  "scenario": "critical_service",
+  "seed": 2,
+  "status": "SUCCESS"
+}

@@ -1,0 +1,105 @@
+{
+  "algorithm": "TARMAC",
+  "attention": {
+    "_peer": {
+      "bs_0": {
+        "n_real_peers": 4,
+        "peer_names": [
+          "ue_0",
+          "ue_1",
+          "edge_0",
+          "ntn_relay",
+          "pad:0"
+        ],
+        "used_self_tile": false
+      },
+      "edge_0": {
+        "n_real_peers": 4,
+        "peer_names": [
+          "ue_0",
+          "ue_1",
+          "bs_0",
+          "ntn_relay",
+          "pad:0"
+        ],
+        "used_self_tile": false
+      },
+      "ntn_relay": {
+        "n_real_peers": 4,
+        "peer_names": [
+          "ue_0",
+          "ue_1",
+          "bs_0",
+          "edge_0",
+          "pad:0"
+        ],
+        "used_self_tile": false
+      },
+      "ue_0": {
+        "n_real_peers": 4,
+        "peer_names": [
+          "ue_1",
+          "bs_0",
+          "edge_0",
+          "ntn_relay",
+          "pad:0"
+        ],
+        "used_self_tile": false
+      },
+      "ue_1": {
+        "n_real_peers": 4,
+        "peer_names": [
+          "ue_0",
+          "bs_0",
+          "edge_0",
+          "ntn_relay",
+          "pad:0"
+        ],
+        "used_self_tile": false
+      }
+    },
+    "bs_0": {
+      "argmax": 0,
+      "entropy": 1.607663631439209,
+      "mean": 0.20000000298023224
+    },
+    "edge_0": {
+      "argmax": 2,
+      "entropy": 1.5823875665664673,
+      "mean": 0.20000000298023224
+    },
+    "ntn_relay": {
+      "argmax": 2,
+      "entropy": 1.6008871793746948,
+      "mean": 0.20000000298023224
+    },
+    "ue_0": {
+      "argmax": 1,
+      "entropy": 1.5934114456176758,
+      "mean": 0.20000000298023224
+    },
+    "ue_1": {
+      "argmax": 2,
+      "entropy": 1.601825475692749,
+      "mean": 0.20000000298023224
+    }
+  },
+  "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_return": 3.37547132006329,
+  "n_episodes": 32,
+  "n_ue": 2,
+  "notes": [
+    "Rollout stores real peer hidden/key/value/query/attention",
+    "Update must NOT tile self as peers",
+    "Joint logp includes control + message + target"
+  ],
+  "requested_steps": 1024,
+  "scenario": "tn_ntn_continuity",
+  "seed": 0,
+  "status": "SUCCESS",
+  "steps": 1024,
+  "updates": 32
+}

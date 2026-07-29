@@ -1,0 +1,19 @@
+{
+  "algorithm": "QMIX",
+  "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "double_q": true,
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_loss": 1.2924805400324542e+19,
+  "mean_return": -22.880099411262407,
+  "n_episodes": 32,
+  "n_ue": 2,
+  "replay_size": 1024,
+  "requested_steps": 1024,
+  "scenario": "hidden_blockage_congestion",
+  "seed": 2,
+  "status": "SUCCESS",
+  "steps": 1024,
+  "updates": 1009
+}

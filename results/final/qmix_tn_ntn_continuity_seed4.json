@@ -1,0 +1,19 @@
+{
+  "algorithm": "QMIX",
+  "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "double_q": true,
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_loss": 1.6805400623229853e+17,
+  "mean_return": -9.335968964741483,
+  "n_episodes": 32,
+  "n_ue": 2,
+  "replay_size": 1024,
+  "requested_steps": 1024,
+  "scenario": "tn_ntn_continuity",
+  "seed": 4,
+  "status": "SUCCESS",
+  "steps": 1024,
+  "updates": 1009
+}

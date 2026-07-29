@@ -1,0 +1,363 @@
+{
+  "rows": [
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -27.886814048792957,
+      "n_episodes": 16,
+      "n_ue": 1,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -22.567700702806256,
+      "n_episodes": 16,
+      "n_ue": 1,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -19.534195403575346,
+      "n_episodes": 16,
+      "n_ue": 1,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -21.45539722225572,
+      "n_episodes": 16,
+      "n_ue": 1,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -23.69931846626246,
+      "n_episodes": 16,
+      "n_ue": 1,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -20.82956448614801,
+      "n_episodes": 16,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -25.464038281372382,
+      "n_episodes": 16,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -27.28183564674675,
+      "n_episodes": 16,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -30.116305048296375,
+      "n_episodes": 16,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -25.448334087146172,
+      "n_episodes": 16,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -26.494320845967252,
+      "n_episodes": 16,
+      "n_ue": 3,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -26.251013527456056,
+      "n_episodes": 16,
+      "n_ue": 3,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -22.727300186512217,
+      "n_episodes": 16,
+      "n_ue": 3,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -18.251032273668358,
+      "n_episodes": 16,
+      "n_ue": 3,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 512,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "GENERALIZATION",
+      "mean_return": -22.039392074864086,
+      "n_episodes": 16,
+      "n_ue": 3,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 512,
+      "updates": 16
+    }
+  ],
+  "status": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "note": "Held-out UE-count sweep; digital-twin layouts still pending.",
+    "status": "RAN",
+    "ue_counts": [
+      1,
+      2,
+      3
+    ]
+  },
+  "summary": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "failed_runs": 0,
+    "methods": {
+      "DIAL": {
+        "boot_high": -22.481060647975013,
+        "boot_low": -25.721941029203098,
+        "boot_mean": -24.03749060397099,
+        "ci95_high": -22.31410561299331,
+        "ci95_low": -25.69210269392275,
+        "final_comparison_eligible": true,
+        "mean": -24.00310415345803,
+        "n": 15,
+        "seeds": 15,
+        "std": 3.337481234177803
+      }
+    },
+    "note": "Pilot/smoke statistics only; not final scientific evidence unless seeds\u22655 and causal gates pass."
+  }
+}

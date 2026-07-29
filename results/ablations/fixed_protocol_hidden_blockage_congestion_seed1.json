@@ -1,0 +1,10 @@
+{
+  "algorithm": "fixed_protocol",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "ABLATION",
+  "mean_return": -17.408480909548146,
+  "requested_steps": 768,
+  "scenario": "hidden_blockage_congestion",
+  "seed": 1,
+  "status": "SUCCESS"
+}

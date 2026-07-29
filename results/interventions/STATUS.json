@@ -1,0 +1,42 @@
+{
+  "evidence_class": "SYNTHETIC_SIM",
+  "mapping": {
+    "blockage": {
+      "clear_symbol": 1,
+      "high_symbol": 2,
+      "on_clear_power": 1,
+      "on_clear_prb": 1,
+      "on_high_power": 4,
+      "on_high_prb": 4
+    },
+    "congestion": {
+      "high_symbol": 4,
+      "low_symbol": 3,
+      "on_high_mcs": 1,
+      "on_low_mcs": 3
+    },
+    "handover": {
+      "hold": 11,
+      "needed": 12,
+      "on_hold": 0,
+      "on_needed": 2
+    },
+    "note": "Messages affect outcomes only via observation\u2192action mappings.",
+    "priority": {
+      "high": 10,
+      "low": 9,
+      "on_high_priority": 2,
+      "on_low_priority": 0
+    },
+    "tn_ntn": {
+      "ntn_costly": 8,
+      "ntn_ok": 7,
+      "on_tn_down_access": 1,
+      "on_tn_ok_access": 0,
+      "tn_down": 6,
+      "tn_ok": 5
+    }
+  },
+  "seeds": 5,
+  "status": "RAN"
+}
