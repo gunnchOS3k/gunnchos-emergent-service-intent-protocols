@@ -41,7 +41,7 @@ def run_smoke(config_path: Path | None = None, seed: int = 0, out_dir: Path | No
         trainer_kwargs["msg_length"] = int(ch.get("msg_length", env_cfg.msg_len))
 
     manifest = new_manifest(
-        experiment_id=f"smoke_{algo}_seed{seed}",
+        experiment_id=f"smoke_{config_path.stem}_{algo}_seed{seed}",
         config_path=str(config_path),
         seed=seed,
         evidence_class=cfg.get("evidence_class", "SYNTHETIC_SIM"),
