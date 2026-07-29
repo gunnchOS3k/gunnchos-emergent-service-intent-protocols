@@ -1,13 +1,14 @@
 {
-  "results/smoke/checksums.json": "60899ca0fa80d64ad0146d28d78fbe66015a1d1081d552ea799872e6ea26005c",
+  "results/smoke/checksums.json": "4fd0f274f96ce30df81accbc2f41e0a8e914b550979cf3d48d67057f44b6681d",
   "results/smoke/gate4_gpu_blocked.json": "a2b08a8b733ecc9092574034ebb7eff507cfacd552b954ef8bc59fdaa0ee24f8",
+  "results/smoke/smoke_cpu_smoke_ippo_seed0.json": "841472c09fd3cfbb6a574273923548969f56cfb633fe1d7893685555798d3c1c",
   "results/smoke/smoke_dial_tarmac_seed0.json": "6ce99691671e84d78d24bb17cbf9e880aa6b8e0aa8c4c942c9ccb7b3c9623bed",
-  "results/smoke/smoke_ippo_seed0.json": "24045b9e872f9d4cadedd042d4932d3995af42198bb7466f37a69ddfa5b24268",
   "results/smoke/smoke_ippo_seed1.json": "1891881e9e2f4f35d638885a60a21a4389ffe2cce6c6d8a9a8f9959f384a6183",
   "results/smoke/smoke_ippo_seed2.json": "fa0c2318827a157f45cd5917524b11223ecb3e37dfb26a4570e61f774c991192",
   "results/smoke/smoke_ippo_seed3.json": "56931812ea4e0ec13b9499a3cbdde7db34e1d41a8b34644e1324d17420fe0ff0",
   "results/smoke/smoke_ippo_seed4.json": "e8c1839aadd8da398b29a79630b63dd2b053089b88fb90b0822aa407c817dd2e",
   "results/smoke/smoke_mappo_seed0.json": "50d5e540d735d65d503a046ae8ea1db027c3c1cfa8ebeee820674e91607c80f7",
+  "results/smoke/smoke_medium_cpu_ippo_seed0.json": "5e0a802863045ee4e553ab405e0922836ee2ff89ec90a5c70cbbbe9eec7ea4c9",
   "results/smoke/smoke_summary_table.json": "fe214d00d2068e3306211dd16fea087622ea26607c2dfd54dd5d8f22fc4bcbf3",
   "results/smoke/smoke_vdn_seed0.json": "bd460e8b848b8bd8191204a5079cea1a5455dfeb6ca1e1fbe09edd4e5f2ba5ca"
 }
