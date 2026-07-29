@@ -1,0 +1,19 @@
+{
+  "built_at": "2026-07-29T19:17:12.019073+00:00",
+  "commit": "UNCOMMITTED",
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "gpu_name": null,
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "platform": "Darwin 25.5.0 arm64",
+    "torch_version": "2.13.0"
+  },
+  "statuses": {
+    "DOI_PENDING": true,
+    "INDEPENDENT_REPRODUCTION_PENDING": true,
+    "PEER_REVIEW_PENDING": true,
+    "RELEASE_CANDIDATE_READY": true
+  }
+}

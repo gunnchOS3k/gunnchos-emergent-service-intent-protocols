@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gunnchos.org/schemas/service_intent.schema.json",
+  "title": "ServiceIntent",
+  "type": "object",
+  "required": [
+    "service_id",
+    "service_class",
+    "priority",
+    "max_latency_ms",
+    "min_reliability"
+  ],
+  "properties": {
+    "service_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_\\-]+$"
+    },
+    "service_class": {
+      "type": "string",
+      "enum": [
+        "eMBB",
+        "URLLC",
+        "mMTC",
+        "education",
+        "critical",
+        "best_effort"
+      ]
+    },
+    "priority": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "max_latency_ms": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "min_reliability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "fairness_floor": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "energy_budget": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "min_throughput_mbps": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

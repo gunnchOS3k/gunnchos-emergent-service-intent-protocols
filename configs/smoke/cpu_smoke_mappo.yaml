@@ -1,0 +1,13 @@
+evidence_class: SYNTHETIC_SIM
+algorithm: mappo
+total_steps: 96
+rollout_steps: 32
+epochs: 2
+hidden: 32
+prefer_cuda: false
+env:
+  scenario: terrestrial_congestion
+  horizon: 12
+  channel:
+    mode: no_comm
+n_ue: 1

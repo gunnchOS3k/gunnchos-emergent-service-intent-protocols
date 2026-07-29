@@ -1,0 +1,11 @@
+scenario: terrestrial_congestion
+n_ue: 1
+horizon: 32
+comm_mode: discrete_learned
+vocab_size: 8
+msg_len: 2
+erasure_p: 0.05
+bit_error_p: 0.02
+delay: 0
+evidence_class: SYNTHETIC_SIM
+include_ntn: false

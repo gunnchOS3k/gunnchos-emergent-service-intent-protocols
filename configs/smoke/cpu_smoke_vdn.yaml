@@ -1,0 +1,11 @@
+evidence_class: SYNTHETIC_SIM
+algorithm: vdn
+total_steps: 96
+hidden: 32
+prefer_cuda: false
+env:
+  scenario: critical_service
+  horizon: 12
+  channel:
+    mode: fixed_protocol
+n_ue: 1

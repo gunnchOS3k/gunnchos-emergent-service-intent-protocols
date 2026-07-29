@@ -1,0 +1,97 @@
+{
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "gpu_name": null,
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "platform": "Darwin 25.5.0 arm64",
+    "torch_version": "2.13.0"
+  },
+  "evidence_class": "SYNTHETIC_SIM",
+  "n_primary_seeds": 5,
+  "rows": [
+    {
+      "config": "cpu_smoke.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -3.3537228093200184,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -1.319085351012299,
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -4.082396955210128,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -2.050697465656012,
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -3.133245748512531,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -2.2945139435587,
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": 21.95689095511559,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": 3.4229111737902875,
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -3.511354296350116,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -3.0602240735610122,
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke_mappo.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -1.946698356990014,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -1.3386329642665724,
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke_vdn.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -13.981698356990014,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -8.188469867107592,
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "cpu_smoke_dial.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -2.1329483569900143,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": 0.36367791821930995,
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "config": "medium_cpu.yaml",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "eval_return": -30.77839671398003,
+      "evidence_class": "SYNTHETIC_SIM",
+      "mean_return": -28.213909340301452,
+      "seed": 0,
+      "status": "SUCCESS"
+    }
+  ],
+  "status": "SUCCESS"
+}

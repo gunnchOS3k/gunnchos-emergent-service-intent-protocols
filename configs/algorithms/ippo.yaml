@@ -1,0 +1,5 @@
+algorithm: ippo
+total_steps: 256
+rollout_steps: 64
+epochs: 2
+hidden: 32

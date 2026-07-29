@@ -1,0 +1,5 @@
+n_ue: 3
+horizon: 6
+seeds: [0,1,2,3,4]
+episodes: 6
+scenarios: [terrestrial_congestion, tn_ntn_failover, critical_service, education_fairness]

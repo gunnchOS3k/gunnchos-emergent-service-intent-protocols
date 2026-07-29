@@ -1,0 +1,8 @@
+scenario: tn_ntn_failover
+n_ue: 1
+horizon: 32
+comm_mode: discrete_learned
+vocab_size: 8
+msg_len: 2
+include_ntn: true
+evidence_class: SYNTHETIC_SIM

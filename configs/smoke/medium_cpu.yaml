@@ -1,0 +1,15 @@
+evidence_class: SYNTHETIC_SIM
+algorithm: ippo
+total_steps: 512
+rollout_steps: 64
+epochs: 3
+hidden: 64
+prefer_cuda: false
+env:
+  scenario: education_fairness
+  horizon: 24
+  fairness_floor: 0.5
+  channel:
+    mode: continuous_learned
+    continuous_dim: 4
+n_ue: 1

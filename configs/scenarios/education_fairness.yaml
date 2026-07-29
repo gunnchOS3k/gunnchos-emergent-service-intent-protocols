@@ -1,0 +1,7 @@
+scenario: education_fairness
+n_ue: 1
+horizon: 32
+comm_mode: continuous_learned
+continuous_dim: 4
+fairness_floor: 0.5
+evidence_class: SYNTHETIC_SIM

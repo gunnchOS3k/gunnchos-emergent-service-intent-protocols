@@ -1,0 +1,22 @@
+evidence_class: SYNTHETIC_SIM
+algorithm: ippo
+total_steps: 128
+rollout_steps: 32
+epochs: 2
+hidden: 32
+prefer_cuda: false
+env:
+  scenario: terrestrial_congestion
+  n_ue: 1
+  horizon: 16
+  evidence_class: SYNTHETIC_SIM
+  channel:
+    mode: discrete_learned
+    vocab_size: 8
+    msg_length: 2
+    bit_cost: 0.01
+    erasure_prob: 0.05
+    corruption_prob: 0.02
+    delay_steps: 0
+    allow_silence: true
+    targeted: true

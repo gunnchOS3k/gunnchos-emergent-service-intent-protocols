@@ -1,0 +1,13 @@
+{
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "gpu_name": null,
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "platform": "Darwin 25.5.0 arm64",
+    "torch_version": "2.13.0"
+  },
+  "evidence_class": "BLOCKED",
+  "status": "BLOCKED_HARDWARE"
+}

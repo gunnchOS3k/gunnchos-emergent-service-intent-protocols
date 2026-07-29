@@ -1,0 +1,46 @@
+{
+  "commit": "UNCOMMITTED",
+  "config": {},
+  "config_path": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-emergent-service-intent-protocols/configs/smoke/cpu_smoke.yaml",
+  "created_at": "2026-07-29T19:16:45.235567+00:00",
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "gpu_name": null,
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "platform": "Darwin 25.5.0 arm64",
+    "torch_version": "2.13.0"
+  },
+  "env": {
+    "HOSTNAME": "Edmunds-MacBook-Pro.local",
+    "cwd": "/Users/gunnchos/Downloads/gunnchos-7gc-research-product-spine/repos/gunnchos-emergent-service-intent-protocols",
+    "python": "3.11.2"
+  },
+  "evidence_class": "SYNTHETIC_SIM",
+  "evidence_label": "SYNTHETIC_EXPERIMENT",
+  "experiment_id": "smoke_ippo_seed2",
+  "finished_at": "2026-07-29T19:16:45.482786+00:00",
+  "metrics": {
+    "algorithm": "IPPO",
+    "device": "CPU_ONLY_APPLE_SILICON",
+    "episode_summary": {
+      "mean_energy": 0.1546875,
+      "mean_message_bits": 5.625,
+      "mean_task_success": 0.0,
+      "mean_violations": 0.0,
+      "steps": 16.0
+    },
+    "eval_return": -3.133245748512531,
+    "evidence_class": "SYNTHETIC_SIM",
+    "mean_return": -2.2945139435587,
+    "n_episodes": 8,
+    "steps": 128,
+    "updates": 8
+  },
+  "notes": [],
+  "run_id": "smoke_ippo_seed2",
+  "seed": 2,
+  "started_at": "2026-07-29T19:16:45.235567+00:00",
+  "status": "SUCCESS"
+}

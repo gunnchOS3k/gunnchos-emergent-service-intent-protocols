@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\title{Resource-Efficient Emergent Service-Intent Protocols for Distributed AI-RAN Agents}
+\author{GENOME / Oulu research track}
+\date{2026-07-29}
+\begin{document}
+\maketitle
+\begin{abstract}
+Doc-POMDP MARL for service-intent constrained AI-RAN agents with costly discrete communication.
+All default results are \texttt{SYNTHETIC\_SIM} on CPU. GPU claims require labeled hardware.
+\end{abstract}
+\section{Model}
+Agents $i\in\mathcal{I}$ observe $o^i_t=M_i(s_t)+\varepsilon^i_t\,\|\,m^{i,\mathrm{in}}_t$ and emit actions/messages.
+Scalar reward $R_t=\sum_k w_k u_k(\mathbf{r}_t)$.
+\section{Algorithms}
+IPPO, MAPPO, VDN/QMIX, DIAL/TarMAC (Gumbel-Softmax train, hard execute).
+\section{Status}
+DOI\_PENDING; INDEPENDENT\_REPRODUCTION\_PENDING; PEER\_REVIEW\_PENDING.
+\end{document}

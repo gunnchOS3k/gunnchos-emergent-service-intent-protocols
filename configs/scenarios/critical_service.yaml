@@ -1,0 +1,6 @@
+scenario: critical_service
+n_ue: 1
+horizon: 32
+comm_mode: fixed_protocol
+latency_sla_ms: 5.0
+evidence_class: SYNTHETIC_SIM
