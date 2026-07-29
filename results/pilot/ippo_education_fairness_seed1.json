@@ -1,0 +1,15 @@
+{
+  "algorithm": "IPPO",
+  "commit": "0fee7ffe48a6e8ebe6cdc04176a2bad2dfe0336f",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "mean_return": -7.954197550440316,
+  "n_episodes": 4,
+  "n_ue": 2,
+  "scenario": "education_fairness",
+  "seed": 1,
+  "status": "SUCCESS",
+  "steps": 48,
+  "updates": 4
+}

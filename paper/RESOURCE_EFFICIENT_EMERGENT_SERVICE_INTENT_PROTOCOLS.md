@@ -112,3 +112,12 @@ Manifests include commit SHA, seed, device label, and `evidence_class`. Clean-ch
 ## 20. Conclusion
 
 Corrective-depth work restored causal and communicational validity for this Doc-POMDP core, separated truthful baselines from faithful DIAL/TarMAC, upgraded value-decomposition training, and recorded pilot statistics without fabricating final or hardware evidence. Remaining blockers: large-seed final matrix, full generalization/robustness sweeps, GPU measurements, physical pilots, DOI, and independent review.
+
+## References
+
+1. Foerster, J. et al. Learning to Communicate with Deep Multi-Agent Reinforcement Learning. NeurIPS 2016 (DIAL).
+2. Das, A. et al. TarMAC: Targeted Multi-Agent Communication. ICML 2019.
+3. Rashid, T. et al. QMIX: Monotonic Value Function Factorisation. ICML 2018.
+4. Yu, C. et al. The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games. NeurIPS 2022.
+5. 3GPP TS 38.300 / NR overall description (system context only; no conformance claim).
+

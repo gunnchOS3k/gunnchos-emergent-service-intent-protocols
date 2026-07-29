@@ -1,0 +1,37 @@
+{
+  "algorithm": "TARMAC",
+  "attention": {
+    "bs_0": {
+      "argmax": 2,
+      "entropy": 1.3850579261779785,
+      "mean": 0.2499999850988388
+    },
+    "edge_0": {
+      "argmax": 1,
+      "entropy": 1.3848875761032104,
+      "mean": 0.2499999701976776
+    },
+    "ue_0": {
+      "argmax": 0,
+      "entropy": 1.3839194774627686,
+      "mean": 0.2499999850988388
+    },
+    "ue_1": {
+      "argmax": 0,
+      "entropy": 1.3838812112808228,
+      "mean": 0.2500000298023224
+    }
+  },
+  "commit": "bea59d0cac57363fdc2e1371ea673271ac12ec11",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "mean_return": -10.056833825981792,
+  "n_episodes": 4,
+  "n_ue": 2,
+  "scenario": "education_fairness",
+  "seed": 4,
+  "status": "SUCCESS",
+  "steps": 48,
+  "updates": 4
+}

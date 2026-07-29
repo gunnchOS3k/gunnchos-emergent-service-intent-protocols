@@ -1,0 +1,5 @@
+{
+  "evidence_class": "SYNTHETIC_SIM",
+  "note": "Held-out UE counts / domain shifts not fully swept; see gaps in paper.",
+  "status": "PILOT_PARTIAL"
+}

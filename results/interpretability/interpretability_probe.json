@@ -1,0 +1,43 @@
+{
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "message_entropy": 2.4290600021033,
+  "mi_estimate_bits": 0.0,
+  "note": "Estimates only; do not claim emergent language.",
+  "symbol_condition_matrix": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.9999999989999999
+    ],
+    [
+      0.0,
+      0.9999999985714286
+    ],
+    [
+      0.0,
+      0.9999999989999999
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.9999999975
+    ],
+    [
+      0.0,
+      0.9999999975
+    ],
+    [
+      0.0,
+      0.9999999975
+    ]
+  ],
+  "symbol_utilization": 0.75,
+  "topographic_similarity": 0.0
+}

@@ -1,0 +1,325 @@
+{
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "methods": {
+    "lagrangian": [
+      {
+        "energy": -0.3,
+        "fairness": 0.5833333310416665,
+        "lambda_violations": 1.0016666666666667,
+        "latency_aoi": -0.1043732621107733,
+        "message_bits": 0.0,
+        "scalar": 0.3764717516847893,
+        "seed": 0,
+        "spectral_efficiency": 1.8135947579722123,
+        "task_success": 0.5833333333333334,
+        "violations": -0.16666666666666666
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.70833333125,
+        "lambda_violations": 1.0041666666666667,
+        "latency_aoi": -0.029166666666666664,
+        "message_bits": 0.0,
+        "scalar": 0.38375468134873447,
+        "seed": 1,
+        "spectral_efficiency": 2.000093635308022,
+        "task_success": 0.7083333333333334,
+        "violations": -0.25
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.7916666641666666,
+        "lambda_violations": 1.0041666666666667,
+        "latency_aoi": -0.03333333333333333,
+        "message_bits": 0.0,
+        "scalar": 0.9796516215064386,
+        "seed": 2,
+        "spectral_efficiency": 1.926365773462105,
+        "task_success": 0.7916666666666666,
+        "violations": 0.0
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999974999999,
+        "lambda_violations": 1.0058333333333334,
+        "latency_aoi": -0.07288738423494252,
+        "message_bits": 0.0,
+        "scalar": 0.4243150167796621,
+        "seed": 3,
+        "spectral_efficiency": 1.6584054380885682,
+        "task_success": 0.625,
+        "violations": -0.16666666666666666
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5833333312499999,
+        "lambda_violations": 1.0083333333333333,
+        "latency_aoi": -0.1167862559294006,
+        "message_bits": 0.0,
+        "scalar": 0.217881687938823,
+        "seed": 4,
+        "spectral_efficiency": 2.053945457494063,
+        "task_success": 0.5833333333333334,
+        "violations": -0.25
+      }
+    ],
+    "preference_0": [
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999979166666,
+        "latency_aoi": -0.050206595444106626,
+        "message_bits": 0.0,
+        "scalar": 0.46194259438910296,
+        "seed": 0,
+        "spectral_efficiency": 1.9809317515869411,
+        "task_success": 0.625,
+        "violations": -0.16666666666666666
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5833333310416665,
+        "latency_aoi": -0.05416666666666667,
+        "message_bits": 0.0,
+        "scalar": 0.45153046311958683,
+        "seed": 1,
+        "spectral_efficiency": 2.2389426026000705,
+        "task_success": 0.5833333333333334,
+        "violations": -0.08333333333333333
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5416666647916666,
+        "latency_aoi": -0.07799343770078389,
+        "message_bits": 0.0,
+        "scalar": 0.39464257212944714,
+        "seed": 2,
+        "spectral_efficiency": 1.8571716569488446,
+        "task_success": 0.5416666666666666,
+        "violations": -0.25
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999974999999,
+        "latency_aoi": -0.05168259748174662,
+        "message_bits": 0.0,
+        "scalar": 0.4640321936281614,
+        "seed": 3,
+        "spectral_efficiency": 1.8590090750267203,
+        "task_success": 0.625,
+        "violations": 0.0
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.37499999833333325,
+        "latency_aoi": -0.11136468422941842,
+        "message_bits": 0.0,
+        "scalar": 0.29156051652823156,
+        "seed": 4,
+        "spectral_efficiency": 2.112273037356801,
+        "task_success": 0.375,
+        "violations": -0.3333333333333333
+      }
+    ],
+    "preference_1": [
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999979166666,
+        "latency_aoi": -0.050206595444106626,
+        "message_bits": 0.0,
+        "scalar": 0.461942593764103,
+        "seed": 0,
+        "spectral_efficiency": 1.9809317515869411,
+        "task_success": 0.625,
+        "violations": -0.16666666666666666
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5833333310416665,
+        "latency_aoi": -0.05416666666666667,
+        "message_bits": 0.0,
+        "scalar": 0.4515304624320868,
+        "seed": 1,
+        "spectral_efficiency": 2.2389426026000705,
+        "task_success": 0.5833333333333334,
+        "violations": -0.08333333333333333
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5416666647916666,
+        "latency_aoi": -0.07799343770078389,
+        "message_bits": 0.0,
+        "scalar": 0.39464257156694715,
+        "seed": 2,
+        "spectral_efficiency": 1.8571716569488446,
+        "task_success": 0.5416666666666666,
+        "violations": -0.25
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999974999999,
+        "latency_aoi": -0.05168259748174662,
+        "message_bits": 0.0,
+        "scalar": 0.46403219287816133,
+        "seed": 3,
+        "spectral_efficiency": 1.8590090750267203,
+        "task_success": 0.625,
+        "violations": 0.0
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.37499999833333325,
+        "latency_aoi": -0.11136468422941842,
+        "message_bits": 0.0,
+        "scalar": 0.2915605160282315,
+        "seed": 4,
+        "spectral_efficiency": 2.112273037356801,
+        "task_success": 0.375,
+        "violations": -0.3333333333333333
+      }
+    ],
+    "weighted": [
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999979166666,
+        "latency_aoi": -0.050206595444106626,
+        "message_bits": 0.0,
+        "scalar": 0.6423386014071923,
+        "seed": 0,
+        "spectral_efficiency": 1.9809317515869411,
+        "task_success": 0.625,
+        "violations": -0.16666666666666666
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5833333310416665,
+        "latency_aoi": -0.05416666666666667,
+        "message_bits": 0.0,
+        "scalar": 0.6877804630050035,
+        "seed": 1,
+        "spectral_efficiency": 2.2389426026000705,
+        "task_success": 0.5833333333333334,
+        "violations": -0.08333333333333333
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.5416666647916666,
+        "latency_aoi": -0.07799343770078389,
+        "message_bits": 0.0,
+        "scalar": 0.44725989493228535,
+        "seed": 2,
+        "spectral_efficiency": 1.8571716569488446,
+        "task_success": 0.5416666666666666,
+        "violations": -0.25
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.6249999974999999,
+        "latency_aoi": -0.05168259748174662,
+        "message_bits": 0.0,
+        "scalar": 0.8026139337549867,
+        "seed": 3,
+        "spectral_efficiency": 1.8590090750267203,
+        "task_success": 0.625,
+        "violations": 0.0
+      },
+      {
+        "energy": -0.3,
+        "fairness": 0.37499999833333325,
+        "latency_aoi": -0.11136468422941842,
+        "message_bits": 0.0,
+        "scalar": 0.17000738135528976,
+        "seed": 4,
+        "spectral_efficiency": 2.112273037356801,
+        "task_success": 0.375,
+        "violations": -0.3333333333333333
+      }
+    ]
+  },
+  "n_front": 9,
+  "n_points": 20,
+  "note": "Pilot-scale heuristic policies; not a final multi-objective claim.",
+  "pareto_front": [
+    {
+      "energy": -0.3,
+      "fairness": 0.6249999979166666,
+      "latency_aoi": -0.050206595444106626,
+      "message_bits": 0.0,
+      "spectral_efficiency": 1.9809317515869411,
+      "task_success": 0.625,
+      "violations": -0.16666666666666666
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.5833333310416665,
+      "latency_aoi": -0.05416666666666667,
+      "message_bits": 0.0,
+      "spectral_efficiency": 2.2389426026000705,
+      "task_success": 0.5833333333333334,
+      "violations": -0.08333333333333333
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.6249999979166666,
+      "latency_aoi": -0.050206595444106626,
+      "message_bits": 0.0,
+      "spectral_efficiency": 1.9809317515869411,
+      "task_success": 0.625,
+      "violations": -0.16666666666666666
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.5833333310416665,
+      "latency_aoi": -0.05416666666666667,
+      "message_bits": 0.0,
+      "spectral_efficiency": 2.2389426026000705,
+      "task_success": 0.5833333333333334,
+      "violations": -0.08333333333333333
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.6249999979166666,
+      "latency_aoi": -0.050206595444106626,
+      "message_bits": 0.0,
+      "spectral_efficiency": 1.9809317515869411,
+      "task_success": 0.625,
+      "violations": -0.16666666666666666
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.5833333310416665,
+      "latency_aoi": -0.05416666666666667,
+      "message_bits": 0.0,
+      "spectral_efficiency": 2.2389426026000705,
+      "task_success": 0.5833333333333334,
+      "violations": -0.08333333333333333
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.70833333125,
+      "latency_aoi": -0.029166666666666664,
+      "message_bits": 0.0,
+      "spectral_efficiency": 2.000093635308022,
+      "task_success": 0.7083333333333334,
+      "violations": -0.25
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.7916666641666666,
+      "latency_aoi": -0.03333333333333333,
+      "message_bits": 0.0,
+      "spectral_efficiency": 1.926365773462105,
+      "task_success": 0.7916666666666666,
+      "violations": 0.0
+    },
+    {
+      "energy": -0.3,
+      "fairness": 0.5833333312499999,
+      "latency_aoi": -0.1167862559294006,
+      "message_bits": 0.0,
+      "spectral_efficiency": 2.053945457494063,
+      "task_success": 0.5833333333333334,
+      "violations": -0.25
+    }
+  ]
+}

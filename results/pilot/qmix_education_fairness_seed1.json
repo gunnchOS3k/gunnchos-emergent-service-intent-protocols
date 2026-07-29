@@ -1,0 +1,18 @@
+{
+  "algorithm": "QMIX",
+  "commit": "bea59d0cac57363fdc2e1371ea673271ac12ec11",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "double_q": true,
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "mean_loss": 361529.8478706174,
+  "mean_return": -7.8311489586673595,
+  "n_episodes": 4,
+  "n_ue": 2,
+  "replay_size": 48,
+  "scenario": "education_fairness",
+  "seed": 1,
+  "status": "SUCCESS",
+  "steps": 48,
+  "updates": 41
+}

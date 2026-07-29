@@ -1,0 +1,67 @@
+[
+  {
+    "compute_cost": 0.01839423179626465,
+    "downstream_utility": -0.5977994699869725,
+    "held_out_generalization": -0.8851793427960056,
+    "kind": "raw",
+    "latent_size": 36,
+    "message_efficiency": 1.0,
+    "nuisance_sensitivity": 2.900191068649292,
+    "objective": "identity",
+    "regularization": "none",
+    "representation_stability": 0.513516366481781,
+    "training_procedure": "REINFORCE_pilot_with_aux"
+  },
+  {
+    "compute_cost": 0.019155025482177734,
+    "downstream_utility": -0.2239456383094443,
+    "held_out_generalization": 3.210483633903089,
+    "kind": "engineered",
+    "latent_size": 8,
+    "message_efficiency": 1.0,
+    "nuisance_sensitivity": 1.2707592248916626,
+    "objective": "handcrafted_features",
+    "regularization": "none",
+    "representation_stability": 0.34374475479125977,
+    "training_procedure": "REINFORCE_pilot_with_aux"
+  },
+  {
+    "compute_cost": 0.02751779556274414,
+    "downstream_utility": 1.087929788867922,
+    "held_out_generalization": 0.8009137884924437,
+    "kind": "ib_encoder",
+    "latent_size": 8,
+    "message_efficiency": 1.0,
+    "nuisance_sensitivity": 2.6883931159973145,
+    "objective": "elbo_kl_bottleneck",
+    "regularization": "KL(q(z|o)||N(0,I))",
+    "representation_stability": 0.4882946312427521,
+    "training_procedure": "REINFORCE_pilot_with_aux"
+  },
+  {
+    "compute_cost": 0.024518251419067383,
+    "downstream_utility": 1.8110444909474517,
+    "held_out_generalization": -0.9301793427960057,
+    "kind": "vq_encoder",
+    "latent_size": 8,
+    "message_efficiency": 1.0,
+    "nuisance_sensitivity": 8.945061580334368e-09,
+    "objective": "vq_commitment",
+    "regularization": "codebook+commitment",
+    "representation_stability": 0.969984233379364,
+    "training_procedure": "REINFORCE_pilot_with_aux"
+  },
+  {
+    "compute_cost": 0.03776717185974121,
+    "downstream_utility": -1.0886582021877351,
+    "held_out_generalization": -0.9076793427960057,
+    "kind": "contrastive",
+    "latent_size": 8,
+    "message_efficiency": 1.0,
+    "nuisance_sensitivity": 0.2810041606426239,
+    "objective": "nt_xent",
+    "regularization": "temperature NT-Xent",
+    "representation_stability": 0.7222272753715515,
+    "training_procedure": "REINFORCE_pilot_with_aux"
+  }
+]

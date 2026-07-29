@@ -1,0 +1,37 @@
+{
+  "algorithm": "TARMAC",
+  "attention": {
+    "bs_0": {
+      "argmax": 2,
+      "entropy": 1.3851560354232788,
+      "mean": 0.2499999701976776
+    },
+    "edge_0": {
+      "argmax": 1,
+      "entropy": 1.3852379322052002,
+      "mean": 0.25
+    },
+    "ue_0": {
+      "argmax": 0,
+      "entropy": 1.3828842639923096,
+      "mean": 0.2500000298023224
+    },
+    "ue_1": {
+      "argmax": 0,
+      "entropy": 1.3812133073806763,
+      "mean": 0.2499999850988388
+    }
+  },
+  "commit": "bea59d0cac57363fdc2e1371ea673271ac12ec11",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "mean_return": -7.684895589852671,
+  "n_episodes": 4,
+  "n_ue": 2,
+  "scenario": "hidden_blockage_congestion",
+  "seed": 4,
+  "status": "SUCCESS",
+  "steps": 48,
+  "updates": 4
+}

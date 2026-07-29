@@ -56,6 +56,9 @@ def summarize_seed_matrix(rows: list[dict[str, Any]], value_key: str = "mean_ret
     by_method: dict[str, list[float]] = {}
     failed = 0
     for r in rows:
+        if not isinstance(r, dict):
+            failed += 1
+            continue
         if r.get("status") not in (None, "SUCCESS", "ok"):
             failed += 1
             continue

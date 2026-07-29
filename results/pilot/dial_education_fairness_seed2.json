@@ -1,0 +1,20 @@
+{
+  "algorithm": "DIAL",
+  "commit": "bea59d0cac57363fdc2e1371ea673271ac12ec11",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "PILOT",
+  "mean_return": -6.355193790103956,
+  "n_episodes": 4,
+  "n_ue": 2,
+  "notes": [
+    "Gumbel-Softmax relaxed messages during differentiable path",
+    "Hard symbols at env execution / evaluation",
+    "Receiver loss backprops to sender message-head"
+  ],
+  "scenario": "education_fairness",
+  "seed": 2,
+  "status": "SUCCESS",
+  "steps": 48,
+  "updates": 4
+}
