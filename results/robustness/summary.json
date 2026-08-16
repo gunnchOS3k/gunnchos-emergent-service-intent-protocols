@@ -1,0 +1,181 @@
+{
+  "rows": [
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.0,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 1.4264830414485203,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.0,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 10.245756853614644,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.0,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 10.275432891645496,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.0,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 5.800199396359938,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.0,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 8.172502836284414,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.2,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 6.02841523529148,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.2,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 5.832451603997467,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.2,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 3.547559373525802,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.2,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 12.407709628284042,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.2,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 1.4801702918532869,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.4,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 3.801413632146226,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.4,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": -1.0509932940769944,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.4,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 1.4600369506146709,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.4,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 8.048528867197053,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "erasure_p": 0.4,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ROBUSTNESS",
+      "mean_return": 3.792485171099265,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    }
+  ],
+  "status": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "note": "Partial robustness matrix (erasure); full domain-shift pending.",
+    "status": "RAN",
+    "sweeps": [
+      "erasure_p"
+    ]
+  },
+  "summary": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "failed_runs": 0,
+    "methods": {
+      "fixed_protocol": {
+        "boot_high": 7.5990337541140445,
+        "boot_low": 3.4449029920469347,
+        "boot_mean": 5.457817332620805,
+        "ci95_high": 7.37162101223063,
+        "ci95_low": 3.464132651674076,
+        "final_comparison_eligible": true,
+        "mean": 5.417876831952353,
+        "n": 15,
+        "seeds": 15,
+        "std": 3.860621771922157
+      }
+    },
+    "note": "Pilot/smoke statistics only; not final scientific evidence unless seeds\u22655 and causal gates pass."
+  }
+}

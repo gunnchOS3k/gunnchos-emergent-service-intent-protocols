@@ -1,5 +1,8 @@
 {
   "evidence_class": "SYNTHETIC_SIM",
-  "note": "Unit tests cover erasure/corruption/delay; full robustness matrix pending.",
-  "status": "PILOT_PARTIAL"
+  "note": "Partial robustness matrix (erasure); full domain-shift pending.",
+  "status": "RAN",
+  "sweeps": [
+    "erasure_p"
+  ]
 }

@@ -1,0 +1,21 @@
+{
+  "algorithm": "ppo_discrete_message_entropy_baseline",
+  "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "ABLATION",
+  "mean_return": -22.502943121793066,
+  "n_episodes": 24,
+  "n_ue": 2,
+  "notes": [
+    "NOT faithful DIAL",
+    "NOT TarMAC",
+    "PPO on MultiDiscrete including message dims + message entropy bonus"
+  ],
+  "requested_steps": 768,
+  "scenario": "hidden_blockage_congestion",
+  "seed": 3,
+  "status": "SUCCESS",
+  "steps": 768,
+  "updates": 24
+}

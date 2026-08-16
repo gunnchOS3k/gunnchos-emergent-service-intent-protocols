@@ -1,0 +1,43 @@
+{
+  "algorithms": [
+    "dial",
+    "no_comm",
+    "fixed_protocol",
+    "ppo_discrete_message_entropy_baseline"
+  ],
+  "baselines_complete_list": [
+    "random",
+    "no_comm",
+    "fixed_protocol",
+    "centralized_oracle",
+    "ippo",
+    "mappo",
+    "vdn",
+    "qmix",
+    "ppo_discrete_message_entropy_baseline",
+    "dial",
+    "tarmac"
+  ],
+  "block_reason": null,
+  "blocked": false,
+  "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "gpu_name": null,
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "platform": "Darwin 25.5.0 arm64",
+    "torch_version": "2.13.0"
+  },
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "ABLATION",
+  "n_rows": 20,
+  "note": "ABLATION suite.",
+  "requested_seeds": 5,
+  "requested_steps": 768,
+  "scenarios": [
+    "hidden_blockage_congestion"
+  ],
+  "status": "PARTIAL"
+}

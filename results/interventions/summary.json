@@ -1,0 +1,524 @@
+{
+  "rows": [
+    {
+      "algorithm": "fixed_protocol/correct",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 1.4264830414485203,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/correct",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 10.245756853614644,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/correct",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 10.275432891645496,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/correct",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 5.800199396359938,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/correct",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 8.172502836284414,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -8.351996514001202,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -8.227055600376374,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -2.9334251801275544,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -5.402679781231654,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/random",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -10.79529728711185,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/constant",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.844246433909987,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/constant",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -14.334333861354674,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/constant",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.864913623258168,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/constant",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.820503564749192,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/constant",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -14.018155838026338,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/permute",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 1.4264830414485203,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/permute",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 10.245756853614644,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/permute",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 10.275432891645496,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/permute",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 5.800199396359938,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/permute",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 8.172502836284414,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/silence",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.844246433909987,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/silence",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -14.334333861354674,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/silence",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.864913623258168,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/silence",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.820503564749192,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/silence",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -14.018155838026338,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/delay",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -3.299452968680641,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/delay",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 7.88670121205553,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/delay",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 5.774613958435801,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/delay",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 1.2325735091726384,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/delay",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 3.646143533946691,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/stale",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 1.4264830414485203,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/stale",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 10.245756853614644,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/stale",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 10.275432891645496,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/stale",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 5.800199396359938,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/stale",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 8.172502836284414,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/corrupt",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -7.92828498239024,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/corrupt",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 5.910411762964578,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/corrupt",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": 5.853376652932003,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/corrupt",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -10.71382246656319,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/corrupt",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -5.3595361112221696,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/adversarial",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.872871433909987,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/adversarial",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -14.362958861354672,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/adversarial",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.89353862325817,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/adversarial",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -13.849128564749192,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol/adversarial",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "INTERVENTION",
+      "mean_return": -14.04678083802634,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    }
+  ],
+  "summary": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "failed_runs": 0,
+    "methods": {
+      "fixed_protocol/adversarial": {
+        "boot_high": -13.867507724115304,
+        "boot_low": -14.172209555779835,
+        "boot_mean": -14.003448781679639,
+        "ci95_high": -13.817029609455155,
+        "ci95_low": -14.193081719064189,
+        "final_comparison_eligible": true,
+        "mean": -14.005055664259672,
+        "n": 5,
+        "seeds": 5,
+        "std": 0.21450971432857155
+      },
+      "fixed_protocol/constant": {
+        "boot_high": -13.838882724115305,
+        "boot_low": -14.143584555779833,
+        "boot_mean": -13.974823781679637,
+        "ci95_high": -13.788404609455153,
+        "ci95_low": -14.164456719064187,
+        "final_comparison_eligible": true,
+        "mean": -13.97643066425967,
+        "n": 5,
+        "seeds": 5,
+        "std": 0.21450971432857244
+      },
+      "fixed_protocol/correct": {
+        "boot_high": 9.431441645888132,
+        "boot_low": 4.065081074864028,
+        "boot_mean": 7.232488245317137,
+        "ci95_high": 10.433550362494119,
+        "ci95_low": 3.9345996452470846,
+        "final_comparison_eligible": true,
+        "mean": 7.184075003870602,
+        "n": 5,
+        "seeds": 5,
+        "std": 3.7071672413738224
+      },
+      "fixed_protocol/corrupt": {
+        "boot_high": 3.131265391887099,
+        "boot_low": -8.572107924426783,
+        "boot_mean": -2.461194111025864,
+        "ci95_high": 4.420967684508559,
+        "ci95_low": -9.316109742220167,
+        "final_comparison_eligible": true,
+        "mean": -2.447571028855804,
+        "n": 5,
+        "seeds": 5,
+        "std": 7.835979321005949
+      },
+      "fixed_protocol/delay": {
+        "boot_high": 6.1334582207550055,
+        "boot_low": -0.5511498256596271,
+        "boot_mean": 3.081783080531057,
+        "ci95_high": 6.838351495107366,
+        "ci95_low": -0.7421197971353579,
+        "final_comparison_eligible": true,
+        "mean": 3.0481158489860043,
+        "n": 5,
+        "seeds": 5,
+        "std": 4.324094160954186
+      },
+      "fixed_protocol/permute": {
+        "boot_high": 9.431441645888132,
+        "boot_low": 4.065081074864028,
+        "boot_mean": 7.232488245317137,
+        "ci95_high": 10.433550362494119,
+        "ci95_low": 3.9345996452470846,
+        "final_comparison_eligible": true,
+        "mean": 7.184075003870602,
+        "n": 5,
+        "seeds": 5,
+        "std": 3.7071672413738224
+      },
+      "fixed_protocol/random": {
+        "boot_high": -4.510990367123104,
+        "boot_low": -9.32931682324546,
+        "boot_mean": -7.148720725305423,
+        "ci95_high": -4.486115307054455,
+        "ci95_low": -9.798066438085,
+        "final_comparison_eligible": true,
+        "mean": -7.142090872569727,
+        "n": 5,
+        "seeds": 5,
+        "std": 3.030072403607447
+      },
+      "fixed_protocol/silence": {
+        "boot_high": -13.838882724115305,
+        "boot_low": -14.143584555779833,
+        "boot_mean": -13.974823781679637,
+        "ci95_high": -13.788404609455153,
+        "ci95_low": -14.164456719064187,
+        "final_comparison_eligible": true,
+        "mean": -13.97643066425967,
+        "n": 5,
+        "seeds": 5,
+        "std": 0.21450971432857244
+      },
+      "fixed_protocol/stale": {
+        "boot_high": 9.431441645888132,
+        "boot_low": 4.065081074864028,
+        "boot_mean": 7.232488245317137,
+        "ci95_high": 10.433550362494119,
+        "ci95_low": 3.9345996452470846,
+        "final_comparison_eligible": true,
+        "mean": 7.184075003870602,
+        "n": 5,
+        "seeds": 5,
+        "std": 3.7071672413738224
+      }
+    },
+    "note": "Pilot/smoke statistics only; not final scientific evidence unless seeds\u22655 and causal gates pass."
+  }
+}

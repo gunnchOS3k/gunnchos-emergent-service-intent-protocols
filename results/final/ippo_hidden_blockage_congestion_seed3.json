@@ -1,0 +1,16 @@
+{
+  "algorithm": "IPPO",
+  "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+  "device": "CPU_ONLY_APPLE_SILICON",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_return": -17.34561554199267,
+  "n_episodes": 32,
+  "n_ue": 2,
+  "requested_steps": 1024,
+  "scenario": "hidden_blockage_congestion",
+  "seed": 3,
+  "status": "SUCCESS",
+  "steps": 1024,
+  "updates": 32
+}

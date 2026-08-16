@@ -1,0 +1,422 @@
+{
+  "rows": [
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 768,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -18.85288737867116,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 768,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -24.30056349263776,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 768,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -26.775582403454994,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 768,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -28.260949606557052,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "DIAL",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "dial_task_updates": 768,
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -25.448954332420925,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "Gumbel-Softmax relaxed messages during differentiable task path",
+        "Hard symbols at env execution / evaluation",
+        "PRIMARY objective: task loss through channel into sender message-head",
+        "Receiver-value regression is auxiliary only (not primary)"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -25.702237257642018,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -25.38036917522257,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -24.268104492103873,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -24.97269745978628,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "no_comm",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -26.76729786984925,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -16.746429347532818,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -17.408480909548146,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -14.334083686579596,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -15.724291081087914,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "fixed_protocol",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -19.872314455037454,
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS"
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -22.480960386383316,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 0,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -21.554114732819972,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 1,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -21.843773317612335,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 2,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -22.502943121793066,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 3,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    },
+    {
+      "algorithm": "ppo_discrete_message_entropy_baseline",
+      "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "evidence_class": "SYNTHETIC_SIM",
+      "label": "ABLATION",
+      "mean_return": -25.14913796953087,
+      "n_episodes": 24,
+      "n_ue": 2,
+      "notes": [
+        "NOT faithful DIAL",
+        "NOT TarMAC",
+        "PPO on MultiDiscrete including message dims + message entropy bonus"
+      ],
+      "requested_steps": 768,
+      "scenario": "hidden_blockage_congestion",
+      "seed": 4,
+      "status": "SUCCESS",
+      "steps": 768,
+      "updates": 24
+    }
+  ],
+  "status": {
+    "algorithms": [
+      "dial",
+      "no_comm",
+      "fixed_protocol",
+      "ppo_discrete_message_entropy_baseline"
+    ],
+    "baselines_complete_list": [
+      "random",
+      "no_comm",
+      "fixed_protocol",
+      "centralized_oracle",
+      "ippo",
+      "mappo",
+      "vdn",
+      "qmix",
+      "ppo_discrete_message_entropy_baseline",
+      "dial",
+      "tarmac"
+    ],
+    "block_reason": null,
+    "blocked": false,
+    "commit": "9b3fec9fdff752f97fbe9950b7db5d9874aea72d",
+    "device": {
+      "cuda_available": false,
+      "device": "cpu",
+      "evidence_label": "CPU_ONLY_APPLE_SILICON",
+      "gpu_name": null,
+      "label": "CPU_ONLY_APPLE_SILICON",
+      "platform": "Darwin 25.5.0 arm64",
+      "torch_version": "2.13.0"
+    },
+    "evidence_class": "SYNTHETIC_SIM",
+    "label": "ABLATION",
+    "n_rows": 20,
+    "note": "ABLATION suite.",
+    "requested_seeds": 5,
+    "requested_steps": 768,
+    "scenarios": [
+      "hidden_blockage_congestion"
+    ],
+    "status": "PARTIAL"
+  },
+  "summary": {
+    "evidence_class": "SYNTHETIC_SIM",
+    "failed_runs": 0,
+    "methods": {
+      "DIAL": {
+        "boot_high": -21.491314160171065,
+        "boot_low": -27.171798943152783,
+        "boot_mean": -24.793996114163622,
+        "ci95_high": -21.570612780055324,
+        "ci95_low": -27.884962105441428,
+        "final_comparison_eligible": true,
+        "mean": -24.727787442748376,
+        "n": 5,
+        "seeds": 5,
+        "std": 3.6018658992967523
+      },
+      "fixed_protocol": {
+        "boot_high": -15.227004610074971,
+        "boot_low": -18.549943071149684,
+        "boot_mean": -16.83814310573131,
+        "ci95_high": -15.00750472143721,
+        "ci95_low": -18.62673507047716,
+        "final_comparison_eligible": true,
+        "mean": -16.817119895957184,
+        "n": 5,
+        "seeds": 5,
+        "std": 2.064501297623372
+      },
+      "no_comm": {
+        "boot_high": -24.695849638747983,
+        "boot_low": -26.13099204891132,
+        "boot_mean": -25.426923783199562,
+        "ci95_high": -24.607240480885196,
+        "ci95_low": -26.2290420209564,
+        "final_comparison_eligible": true,
+        "mean": -25.418141250920797,
+        "n": 5,
+        "seeds": 5,
+        "std": 0.9251169616359846
+      },
+      "ppo_discrete_message_entropy_baseline": {
+        "boot_high": -21.855347297449583,
+        "boot_low": -23.95442952251765,
+        "boot_mean": -22.74136837636275,
+        "ci95_high": -21.45645938018342,
+        "ci95_low": -23.955912431072402,
+        "final_comparison_eligible": true,
+        "mean": -22.706185905627912,
+        "n": 5,
+        "seeds": 5,
+        "std": 1.4257517674380105
+      }
+    },
+    "note": "Pilot/smoke statistics only; not final scientific evidence unless seeds\u22655 and causal gates pass."
+  }
+}

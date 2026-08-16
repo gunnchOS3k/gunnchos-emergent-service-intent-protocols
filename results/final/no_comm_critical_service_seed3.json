@@ -1,0 +1,10 @@
+{
+  "algorithm": "no_comm",
+  "evidence_class": "SYNTHETIC_SIM",
+  "label": "FINAL",
+  "mean_return": -24.29095181772441,
+  "requested_steps": 1024,
+  "scenario": "critical_service",
+  "seed": 3,
+  "status": "SUCCESS"
+}
