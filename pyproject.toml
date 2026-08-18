@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "emergent-intent"
 version = "0.1.0"
-description = "Resource-efficient emergent service-intent protocols for distributed AI-RAN agents (GENOME / Oulu research track)"
+description = "Resource-efficient service-intent protocols for distributed AI-RAN agents (optional extension; public GENOME theme mapping only, not an appointment)"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.11"

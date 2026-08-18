@@ -26,6 +26,8 @@ jobs:
         run: python -c "import json,jsonschema; from pathlib import Path; s=json.loads(Path('schemas/service_intent.schema.json').read_text()); jsonschema.Draft202012Validator.check_schema(s); print('SCHEMA_OK')"
       - name: Smoke (1 seed fast)
         run: python -c "from emergent_intent.cli import run_smoke; from pathlib import Path; r=run_smoke(Path('configs/smoke/cpu_smoke.yaml'), seed=0); print(r['status'], r['metrics'].get('mean_return'))"
+      - name: BLOCKED_GPU honest JSON
+        run: python scripts/emit_blocked_gpu.py
 
   gpu:
     name: GPU (manual / pending)

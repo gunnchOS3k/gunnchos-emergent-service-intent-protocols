@@ -10,6 +10,7 @@ import numpy as np
 def symbol_counts(messages: np.ndarray, vocab_size: int) -> np.ndarray:
     """messages: (N, L) integer symbols."""
     flat = np.asarray(messages, dtype=np.int64).ravel()
+    flat = flat[(flat >= 0) & (flat <= vocab_size)]
     counts = np.bincount(flat, minlength=vocab_size + 1)
     return counts
 
@@ -159,4 +160,49 @@ def analyze_messages(
         ).tolist()
     if meanings is not None:
         report["topographic_similarity"] = topographic_similarity(messages, meanings)
+    from emergent_intent.interpretability.claims import (
+        LanguageClaimEvidence,
+        evaluate_language_claim,
+    )
+
+    report["language_claim"] = evaluate_language_claim(
+        LanguageClaimEvidence(
+            entropy_bits=report.get("entropy_bits"),
+            mi_bits=report.get("mi_symbol_condition_bits"),
+            topographic_similarity=report.get("topographic_similarity"),
+            intervention_delta=None,
+            n_repeated_runs=0,
+            messages_are_exchanged=True,
+        )
+    )
     return report
+
+
+from emergent_intent.interpretability.claims import (  # noqa: E402
+    LanguageClaimEvidence,
+    LanguageClaimGate,
+    evaluate_language_claim,
+)
+from emergent_intent.interpretability.efficiency import (  # noqa: E402
+    bits_from_symbols,
+    communication_efficiency,
+    silence_fraction,
+)
+
+__all__ = [
+    "LanguageClaimEvidence",
+    "LanguageClaimGate",
+    "analyze_messages",
+    "bits_from_symbols",
+    "communication_efficiency",
+    "evaluate_language_claim",
+    "intervene_symbol",
+    "latent_probe_r2",
+    "message_entropy",
+    "mutual_information_estimate",
+    "silence_fraction",
+    "symbol_condition_matrix",
+    "symbol_counts",
+    "symbol_use_fraction",
+    "topographic_similarity",
+]
