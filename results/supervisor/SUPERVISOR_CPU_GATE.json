@@ -1,0 +1,102 @@
+{
+  "commit": "785d35d3973d657d9ff37f5426eaf0b2a862de43",
+  "communication_efficiency": {
+    "bits_per_agent_step": 1.8958333333333333,
+    "bits_per_step": 5.6875,
+    "bits_per_success": 27300000000.0,
+    "channel_utilization": 0.11848958333333333,
+    "delta_success_vs_fixed_protocol": null,
+    "delta_success_vs_no_comm": null,
+    "evidence_class": "SYNTHETIC_SIM",
+    "message_bits": 273.0,
+    "note": "Efficiency statistics only. Non-zero bits or utilization is not an emergent-language claim.",
+    "silence_fraction": 0.0,
+    "task_success": -0.998348036489063
+  },
+  "device": {
+    "cuda_available": false,
+    "device": "cpu",
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "gpu_name": null,
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "platform": "Darwin 25.6.0 arm64",
+    "torch_version": "2.13.0"
+  },
+  "dissertation_role": "optional_distributed_intelligence_extension_not_fourth_paper",
+  "evidence_class": "SYNTHETIC_SIM",
+  "gate": "supervisor-cpu-gate",
+  "gpu": {
+    "aliases": [
+      "BLOCKED_HARDWARE"
+    ],
+    "commit": "785d35d3973d657d9ff37f5426eaf0b2a862de43",
+    "device": {
+      "cuda_available": false,
+      "device": "cpu",
+      "evidence_label": "CPU_ONLY_APPLE_SILICON",
+      "gpu_name": null,
+      "label": "CPU_ONLY_APPLE_SILICON",
+      "platform": "Darwin 25.6.0 arm64",
+      "torch_version": "2.13.0"
+    },
+    "evidence_class": "SYNTHETIC_SIM",
+    "fail_closed": true,
+    "gpu_timings_present": false,
+    "notes": "No CUDA. Default evidence is SYNTHETIC_SIM / CPU-only. Never invent GPU timings.",
+    "numeric_gpu_claim": false,
+    "status": "BLOCKED_GPU",
+    "timestamp": "2026-08-18T17:22:34.250073+00:00"
+  },
+  "language_claim": {
+    "descriptive_status": "messages_exchanged_only",
+    "emergent_language_claimed": false,
+    "entropy_bits": 2.4323684208394596,
+    "evidence_class": "SYNTHETIC_SIM",
+    "forbidden_phrase": "emergent language",
+    "interpretability_complete": false,
+    "intervention_delta": null,
+    "messages_are_exchanged": true,
+    "mi_bits": 2.135617669209945e-16,
+    "missing": [
+      "intervention_delta"
+    ],
+    "n_repeated_runs": 3,
+    "notes": [
+      "CPU supervisor probe; intervention_delta left unset on purpose"
+    ],
+    "topographic_similarity": 0.0,
+    "warning": "Do not claim emergent language because agents send messages. Require entropy, MI, topographic similarity, interventions, and repeated runs; even then the allowed wording is structured_signaling_candidate, not emergent language."
+  },
+  "oulu_genome": "public_theme_mapping_only_not_an_appointment",
+  "repeated_runs": [
+    {
+      "entropy_bits": 2.4611571969951243,
+      "mean_return": -1.2014157184508323,
+      "mi_bits": 0.0,
+      "n_messages": 31,
+      "seed": 0,
+      "silence_fraction": 0.0,
+      "topographic_similarity": 0.0
+    },
+    {
+      "entropy_bits": 2.5580829833572976,
+      "mean_return": -0.8400745012095123,
+      "mi_bits": 3.2034265038149176e-16,
+      "n_messages": 30,
+      "seed": 1,
+      "silence_fraction": 0.0,
+      "topographic_similarity": 0.0
+    },
+    {
+      "entropy_bits": 2.277865082165957,
+      "mean_return": -0.9535538898068443,
+      "mi_bits": 3.2034265038149176e-16,
+      "n_messages": 30,
+      "seed": 2,
+      "silence_fraction": 0.0,
+      "topographic_similarity": 0.0
+    }
+  ],
+  "status": "CPU_PASS",
+  "timestamp": "2026-08-18T17:22:34.294184+00:00"
+}

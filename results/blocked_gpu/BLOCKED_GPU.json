@@ -1,0 +1,22 @@
+{
+  "status": "BLOCKED_GPU",
+  "aliases": [
+    "BLOCKED_HARDWARE"
+  ],
+  "fail_closed": true,
+  "gpu_timings_present": false,
+  "numeric_gpu_claim": false,
+  "device": {
+    "device": "cpu",
+    "cuda_available": false,
+    "gpu_name": null,
+    "evidence_label": "CPU_ONLY_APPLE_SILICON",
+    "label": "CPU_ONLY_APPLE_SILICON",
+    "torch_version": "2.13.0",
+    "platform": "Darwin 25.6.0 arm64"
+  },
+  "commit": "785d35d3973d657d9ff37f5426eaf0b2a862de43",
+  "timestamp": "2026-08-18T17:22:34.250073+00:00",
+  "notes": "No CUDA. Default evidence is SYNTHETIC_SIM / CPU-only. Never invent GPU timings.",
+  "evidence_class": "SYNTHETIC_SIM"
+}

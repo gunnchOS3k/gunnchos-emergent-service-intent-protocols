@@ -2,7 +2,8 @@ PYTHON ?= python3
 .PHONY: bootstrap test smoke causal-tests algorithm-validation \
 	semantic-intervention-tests dial-validation tarmac-validation \
 	final-experiments generalization robustness ablations interpretability \
-	statistics figures paper artifact reproduce-clean gate4-cpu gate4-gpu clean lint typecheck
+	statistics figures paper artifact reproduce-clean gate4-cpu gate4-gpu clean lint typecheck \
+	blocked-gpu supervisor-cpu-gate
 
 bootstrap:
 	$(PYTHON) -m pip install -e ".[dev]"
@@ -83,8 +84,14 @@ gate4-cpu: test smoke causal-tests algorithm-validation semantic-intervention-te
 
 gate4-gpu:
 	@$(PYTHON) -c "import torch,sys; ok=torch.cuda.is_available(); print('CUDA',ok); sys.exit(0 if not ok else 1)" \
-		&& (mkdir -p results/smoke && $(PYTHON) -c "import json; from pathlib import Path; from emergent_intent.utils import detect_device, dump_json; d=detect_device(); dump_json('results/smoke/gate4_gpu_blocked.json', {'status':'BLOCKED_HARDWARE','evidence_class':'BLOCKED','device':d.as_dict()}); print('GATE4_NVIDIA_GPU_PENDING / BLOCKED_HARDWARE (no CUDA)')") \
+		&& ($(PYTHON) scripts/emit_blocked_gpu.py; echo 'GATE4_NVIDIA_GPU_PENDING / BLOCKED_GPU (no CUDA)') \
 		|| $(PYTHON) scripts/run_smoke_experiments.py --device cuda --seeds 1 --steps 64
+
+blocked-gpu:
+	$(PYTHON) scripts/emit_blocked_gpu.py
+
+supervisor-cpu-gate:
+	$(PYTHON) scripts/supervisor_cpu_gate.py
 
 clean:
 	rm -rf results/smoke/* results/pilot/* .coverage htmlcov
