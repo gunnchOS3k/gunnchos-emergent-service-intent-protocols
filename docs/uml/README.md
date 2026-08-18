@@ -11,3 +11,5 @@ Current-state diagrams for the CPU Doc-POMDP. GPU deployment is a blocked/option
 | Protocol state machine | [current/state_protocol.md](current/state_protocol.md) |
 | Experiment activity | [current/activity_experiment.md](current/activity_experiment.md) |
 | CPU / GPU deployment | [current/deployment.md](current/deployment.md) |
+
+Future (BLOCKED_GPU): [future/index.md](future/index.md) · Legacy: [legacy/index.md](legacy/index.md) · Traceability: [traceability_matrix.md](traceability_matrix.md)
