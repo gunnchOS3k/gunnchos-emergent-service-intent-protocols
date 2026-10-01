@@ -1,0 +1,21 @@
+{
+  "repo": "gunnchos-emergent-service-intent-protocols",
+  "productName": "Service intent protocols",
+  "family": "Research",
+  "classification": "STATIC_RESEARCH_SURFACE_WORKER",
+  "acceptedSha": "088c5e88e155aaf9e4711c7b87a85d37145bbe31",
+  "status": "STAGING_WORKER",
+  "summary": "Research code for emergent service-intent protocols.",
+  "capabilities": [
+    "Read the protocol research scope",
+    "Open the source repository"
+  ],
+  "limitations": [
+    "Not a deployed network protocol",
+    "Not standards-track by virtue of this page"
+  ],
+  "sourceUrl": "https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols",
+  "returnUrlEnv": "GUNNCHOS_PORTAL_URL",
+  "returnUrl": "https://gunnchos-site.gunnchos-finds.workers.dev",
+  "workerName": "gunnchos-service-intent"
+}
