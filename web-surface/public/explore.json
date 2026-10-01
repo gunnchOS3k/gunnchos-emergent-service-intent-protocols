@@ -1,0 +1,112 @@
+{
+  "schema": "gunnchos.surfacekit.v2",
+  "measured_topology": false,
+  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "nodes": [
+    {
+      "id": "overview",
+      "label": "Overview"
+    },
+    {
+      "id": "truth-rules",
+      "label": "Truth rules"
+    },
+    {
+      "id": "quick-start",
+      "label": "Quick start"
+    },
+    {
+      "id": "layout",
+      "label": "Layout"
+    }
+  ],
+  "rows": [
+    {
+      "source": "README.md",
+      "scenario_id": "Overview",
+      "site_id": "Research",
+      "ethical_framing": "# Emergent Service-Intent Protocols Research codebase for **resource-efficient communication protocols** among distributed AI-RAN agents under validated **service-intent** constraints. Aligned to the **public** University of Oulu GENOME research theme (emergent communication in beyond 5G/6G). **Not an appointment, studentship, or funded post.** Optional distributed-intelligence extension \u2014 **not** a fourth dissertati"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Truth rules",
+      "site_id": "Research",
+      "ethical_framing": "- Never fabricate physical RF or GPU acceleration results. - Default host evidence is **CPU-only** (`SYNTHETIC_SIM`). - `make gate4-gpu` exits honestly with `BLOCKED_GPU` when CUDA is absent. - Do not claim \u201cemergent language\u201d without interpretability analysis (entropy, MI, topographic similarity, interventions)."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Quick start",
+      "site_id": "Research",
+      "ethical_framing": "make bootstrap make test make smoke make gate4-cpu make gate4-gpu # BLOCKED_GPU on Apple Silicon without CUDA"
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Layout",
+      "site_id": "Research",
+      "ethical_framing": "See `src/emergent_intent/` for `env`, `comm`, `algorithms`, `abstraction`, `objectives`, `intent`, `interpretability`, `adapters`."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "Citation",
+      "site_id": "Research",
+      "ethical_framing": "See `CITATION.cff`. Manuscript: `paper/RESOURCE_EFFICIENT_EMERGENT_SERVICE_INTENT_PROTOCOLS.md`."
+    },
+    {
+      "source": "README.md",
+      "scenario_id": "License",
+      "site_id": "Research",
+      "ethical_framing": "Apache-2.0"
+    }
+  ],
+  "sources": [],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "body": "# Emergent Service-Intent Protocols Research codebase for **resource-efficient communication protocols** among distributed AI-RAN agents under validated **service-intent** constraints. Aligned to the **public** University of Oulu GENOME research theme (emergent communication in beyond 5G/6G). **Not an appointment, studentship, or funded post.** Optional distributed-intelligence extension \u2014 **not** a fourth dissertati"
+    },
+    {
+      "id": "truth-rules",
+      "title": "Truth rules",
+      "body": "- Never fabricate physical RF or GPU acceleration results. - Default host evidence is **CPU-only** (`SYNTHETIC_SIM`). - `make gate4-gpu` exits honestly with `BLOCKED_GPU` when CUDA is absent. - Do not claim \u201cemergent language\u201d without interpretability analysis (entropy, MI, topographic similarity, interventions)."
+    },
+    {
+      "id": "quick-start",
+      "title": "Quick start",
+      "body": "make bootstrap make test make smoke make gate4-cpu make gate4-gpu # BLOCKED_GPU on Apple Silicon without CUDA"
+    },
+    {
+      "id": "layout",
+      "title": "Layout",
+      "body": "See `src/emergent_intent/` for `env`, `comm`, `algorithms`, `abstraction`, `objectives`, `intent`, `interpretability`, `adapters`."
+    },
+    {
+      "id": "citation",
+      "title": "Citation",
+      "body": "See `CITATION.cff`. Manuscript: `paper/RESOURCE_EFFICIENT_EMERGENT_SERVICE_INTENT_PROTOCOLS.md`."
+    },
+    {
+      "id": "license",
+      "title": "License",
+      "body": "Apache-2.0"
+    }
+  ],
+  "artifacts": [
+    "results/ablations/STATUS.json",
+    "results/ablations/abstraction_pilot.json",
+    "results/ablations/dial_hidden_blockage_congestion_seed0.json",
+    "results/ablations/dial_hidden_blockage_congestion_seed1.json",
+    "results/ablations/dial_hidden_blockage_congestion_seed2.json",
+    "results/ablations/dial_hidden_blockage_congestion_seed3.json",
+    "results/ablations/dial_hidden_blockage_congestion_seed4.json",
+    "results/ablations/fixed_protocol_hidden_blockage_congestion_seed0.json",
+    "results/ablations/fixed_protocol_hidden_blockage_congestion_seed1.json",
+    "results/ablations/fixed_protocol_hidden_blockage_congestion_seed2.json",
+    "results/ablations/fixed_protocol_hidden_blockage_congestion_seed3.json",
+    "results/ablations/fixed_protocol_hidden_blockage_congestion_seed4.json"
+  ],
+  "methods": "# Reproducibility \u2014 emergent service-intent protocols CPU-first Doc-POMDP for service-intent constrained multi-agent communication. Default evidence: `SYNTHETIC_SIM`. ## Fresh machine (CPU) ```bash git clone https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols.git cd gunnchos-emergent-service-intent-protocols # Private clone requires collaborator access (docs/packets/REPOSITORY_VISIBILITY_PACKET.md). python3 -m pip install -e \".[dev]\" make test make gate4-cpu make blocked-gpu # BLOCKED_GPU JSON without CUDA make supervisor-cpu-gate ``` Python 3.11+, PyTorch CPU wheels. GPU: `make gate4-gpu` writes `BLOCKED_GPU` when CUDA is absent. ## Expected CPU outputs - pytest PASS (u",
+  "cards": [],
+  "runtime_mode": "PRECOMPUTED",
+  "runtime_boot": false
+}
