@@ -1,64 +1,142 @@
 {
   "schema": "gunnchos.surfacekit.v2",
   "measured_topology": false,
-  "diagram_note": "Reading aid built from repository headings. It is not a measured topology and it is not a live system.",
+  "diagram_note": "CPU synthetic smoke rows copied from results/smoke/smoke_summary_table.json. cuda_available is false in that file. This is not a GPU training run and not a live service deployment.",
   "nodes": [
     {
-      "id": "overview",
-      "label": "Overview"
+      "id": "cpu",
+      "label": "CPU smoke"
     },
     {
-      "id": "truth-rules",
-      "label": "Truth rules"
+      "id": "sim",
+      "label": "Synthetic return"
     },
     {
-      "id": "quick-start",
-      "label": "Quick start"
-    },
-    {
-      "id": "layout",
-      "label": "Layout"
+      "id": "gpu",
+      "label": "GPU gate blocked"
     }
   ],
   "rows": [
     {
-      "source": "README.md",
-      "scenario_id": "Overview",
-      "site_id": "Research",
-      "ethical_framing": "# Emergent Service-Intent Protocols Research codebase for **resource-efficient communication protocols** among distributed AI-RAN agents under validated **service-intent** constraints. Aligned to the **public** University of Oulu GENOME research theme (emergent communication in beyond 5G/6G). **Not an appointment, studentship, or funded post.** Optional distributed-intelligence extension \u2014 **not** a fourth dissertati"
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 0 cpu_smoke.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 0 status SUCCESS.",
+      "config": "cpu_smoke.yaml",
+      "seed": 0,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -1.319085351012299,
+      "eval_return": -3.3537228093200184,
+      "status": "SUCCESS"
     },
     {
-      "source": "README.md",
-      "scenario_id": "Truth rules",
-      "site_id": "Research",
-      "ethical_framing": "- Never fabricate physical RF or GPU acceleration results. - Default host evidence is **CPU-only** (`SYNTHETIC_SIM`). - `make gate4-gpu` exits honestly with `BLOCKED_GPU` when CUDA is absent. - Do not claim \u201cemergent language\u201d without interpretability analysis (entropy, MI, topographic similarity, interventions)."
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 1 cpu_smoke.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 1 status SUCCESS.",
+      "config": "cpu_smoke.yaml",
+      "seed": 1,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -2.050697465656012,
+      "eval_return": -4.082396955210128,
+      "status": "SUCCESS"
     },
     {
-      "source": "README.md",
-      "scenario_id": "Quick start",
-      "site_id": "Research",
-      "ethical_framing": "make bootstrap make test make smoke make gate4-cpu make gate4-gpu # BLOCKED_GPU on Apple Silicon without CUDA"
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 2 cpu_smoke.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 2 status SUCCESS.",
+      "config": "cpu_smoke.yaml",
+      "seed": 2,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -2.2945139435587,
+      "eval_return": -3.133245748512531,
+      "status": "SUCCESS"
     },
     {
-      "source": "README.md",
-      "scenario_id": "Layout",
-      "site_id": "Research",
-      "ethical_framing": "See `src/emergent_intent/` for `env`, `comm`, `algorithms`, `abstraction`, `objectives`, `intent`, `interpretability`, `adapters`."
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 3 cpu_smoke.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 3 status SUCCESS.",
+      "config": "cpu_smoke.yaml",
+      "seed": 3,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": 3.4229111737902875,
+      "eval_return": 21.95689095511559,
+      "status": "SUCCESS"
     },
     {
-      "source": "README.md",
-      "scenario_id": "Citation",
-      "site_id": "Research",
-      "ethical_framing": "See `CITATION.cff`. Manuscript: `paper/RESOURCE_EFFICIENT_EMERGENT_SERVICE_INTENT_PROTOCOLS.md`."
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 4 cpu_smoke.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 4 status SUCCESS.",
+      "config": "cpu_smoke.yaml",
+      "seed": 4,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -3.0602240735610122,
+      "eval_return": -3.511354296350116,
+      "status": "SUCCESS"
     },
     {
-      "source": "README.md",
-      "scenario_id": "License",
-      "site_id": "Research",
-      "ethical_framing": "Apache-2.0"
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 0 cpu_smoke_mappo.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 0 status SUCCESS.",
+      "config": "cpu_smoke_mappo.yaml",
+      "seed": 0,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -1.3386329642665724,
+      "eval_return": -1.946698356990014,
+      "status": "SUCCESS"
+    },
+    {
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 0 cpu_smoke_vdn.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 0 status SUCCESS.",
+      "config": "cpu_smoke_vdn.yaml",
+      "seed": 0,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -8.188469867107592,
+      "eval_return": -13.981698356990014,
+      "status": "SUCCESS"
+    },
+    {
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 0 cpu_smoke_dial.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 0 status SUCCESS.",
+      "config": "cpu_smoke_dial.yaml",
+      "seed": 0,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": 0.36367791821930995,
+      "eval_return": -2.1329483569900143,
+      "status": "SUCCESS"
+    },
+    {
+      "source": "results/smoke/smoke_summary_table.json",
+      "scenario_id": "seed 0 medium_cpu.yaml",
+      "evidence_class": "SYNTHETIC_SIM",
+      "ethical_framing": "CPU smoke seed 0 status SUCCESS.",
+      "config": "medium_cpu.yaml",
+      "seed": 0,
+      "device": "CPU_ONLY_APPLE_SILICON",
+      "mean_return": -28.213909340301452,
+      "eval_return": -30.77839671398003,
+      "status": "SUCCESS"
+    },
+    {
+      "source": "results/blocked_gpu/BLOCKED_GPU.json",
+      "scenario_id": "GPU gate",
+      "evidence_class": "blocked_gate",
+      "ethical_framing": "No CUDA. Default evidence is SYNTHETIC_SIM / CPU-only. Never invent GPU timings.",
+      "status": "BLOCKED_GPU"
     }
   ],
-  "sources": [],
+  "sources": [
+    "results/smoke/smoke_summary_table.json",
+    "results/blocked_gpu/BLOCKED_GPU.json"
+  ],
   "sections": [
     {
       "id": "overview",
@@ -105,7 +183,7 @@
     "results/ablations/fixed_protocol_hidden_blockage_congestion_seed3.json",
     "results/ablations/fixed_protocol_hidden_blockage_congestion_seed4.json"
   ],
-  "methods": "# Reproducibility \u2014 emergent service-intent protocols CPU-first Doc-POMDP for service-intent constrained multi-agent communication. Default evidence: `SYNTHETIC_SIM`. ## Fresh machine (CPU) ```bash git clone https://github.com/gunnchOS3k/gunnchos-emergent-service-intent-protocols.git cd gunnchos-emergent-service-intent-protocols # Private clone requires collaborator access (docs/packets/REPOSITORY_VISIBILITY_PACKET.md). python3 -m pip install -e \".[dev]\" make test make gate4-cpu make blocked-gpu # BLOCKED_GPU JSON without CUDA make supervisor-cpu-gate ``` Python 3.11+, PyTorch CPU wheels. GPU: `make gate4-gpu` writes `BLOCKED_GPU` when CUDA is absent. ## Expected CPU outputs - pytest PASS (u",
+  "methods": "Methods and returns are copied from results/smoke/smoke_summary_table.json. evidence_class is SYNTHETIC_SIM. The device block says cuda_available is false and the label is CPU_ONLY_APPLE_SILICON. GPU timings are not invented from the blocked-GPU file.",
   "cards": [],
   "runtime_mode": "PRECOMPUTED",
   "runtime_boot": false
