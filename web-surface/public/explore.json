@@ -186,5 +186,6 @@
   "methods": "Methods and returns are copied from results/smoke/smoke_summary_table.json. evidence_class is SYNTHETIC_SIM. The device block says cuda_available is false and the label is CPU_ONLY_APPLE_SILICON. GPU timings are not invented from the blocked-GPU file.",
   "cards": [],
   "runtime_mode": "PRECOMPUTED",
-  "runtime_boot": false
+  "runtime_boot": false,
+  "evidence_class": "SYNTHETIC_SIM"
 }
